@@ -1,0 +1,23 @@
+# Secrets — never commit
+.env
+*.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Vector DB — regenerable from rag/knowledge_base.json via "重新索引"
+rag/chroma_db/
+
+# Local agent workspace (memory logs / backups) — not part of the deliverable
+.workbuddy/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

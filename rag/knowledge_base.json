@@ -1,0 +1,1900 @@
+[
+  {
+    "id": "Q-001",
+    "category": "AI PM校招高频题",
+    "question": "请用STAR法则描述一个你在实习期间负责的AI产品功能",
+    "jd_tags": [
+      "AI产品",
+      "实习经历",
+      "STAR",
+      "从0到1"
+    ],
+    "ideal_answer_structure": [
+      "S: 实习期间公司决定在客服系统中接入LLM",
+      "T: 我负责设计AI回答的兜底策略",
+      "A(用'我'): 我分析了100条bad case，抽象了3类幻觉场景，设计了规则+模型的双层兜底",
+      "R: 幻觉率从15%降到3%（注明：在mentor指导下完成）"
+    ],
+    "scoring_criteria": "S(15%)+T(15%)+A(50%)+R(20%)，A必须用'我'，R必须量化，实习贡献必须注明边界",
+    "embedding_text": "[场景:self_intro project_dig] AI产品 实习 STAR 幻觉 兜底策略 LLM 校招 产品经理",
+    "scenario_tags": [
+      "self_intro",
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "Q-002",
+    "category": "AI PM校招高频题",
+    "question": "请描述你对LLM能力边界的理解，举例说明什么场景适合用LLM，什么场景不适合",
+    "jd_tags": [
+      "LLM",
+      "能力边界",
+      "AI技术理解",
+      "产品判断"
+    ],
+    "ideal_answer_structure": [
+      "适合：非结构化文本处理、创意生成、多轮对话",
+      "不适合：精确计算、实时性要求高、严格合规场景",
+      "结合实习经历举例"
+    ],
+    "scoring_criteria": "技术理解深度(40%)+场景判断(30%)+实例支撑(30%)",
+    "embedding_text": "[场景:tech_probe case_design] LLM 大语言模型 能力边界 产品判断 AI技术理解 场景适用",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "Q-003",
+    "category": "AI PM校招高频题",
+    "question": "如何评估一个AI产品的效果？你会关注哪些指标？",
+    "jd_tags": [
+      "AI产品评估",
+      "数据分析",
+      "指标定义",
+      "A/B测试"
+    ],
+    "ideal_answer_structure": [
+      "技术指标：准确率、幻觉率、响应延迟",
+      "业务指标：用户满意度、使用率、转化率",
+      "评估方法：人工标注+自动评估+A/B测试"
+    ],
+    "scoring_criteria": "指标完整性(30%)+评估方法(30%)+业务关联(20%)+数据意识(20%)",
+    "embedding_text": "[场景:tech_probe case_design] AI产品评估 效果评估 指标 幻觉率 准确率 A/B测试 数据分析",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "Q-004",
+    "category": "AI PM校招高频题",
+    "question": "如果你来设计一个AI助手产品，你会如何定义MVP的范围？",
+    "jd_tags": [
+      "MVP",
+      "AI产品设计",
+      "需求优先级",
+      "产品策略"
+    ],
+    "ideal_answer_structure": [
+      "S: 明确目标用户和核心场景",
+      "T: 定义MVP解决的最小问题集",
+      "A: 需求优先级排序+技术可行性评估",
+      "R: MVP功能清单+成功标准"
+    ],
+    "scoring_criteria": "场景聚焦(25%)+需求拆解(25%)+技术可行性(25%)+MVP定义(25%)",
+    "embedding_text": "[场景:case_design] MVP AI产品设计 需求优先级 产品策略 AI助手 最小可行产品",
+    "scenario_tags": [
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "Q-005",
+    "category": "AI PM校招高频题",
+    "question": "讲述一次你在实习中与算法/开发团队协作推进AI功能落地的经历",
+    "jd_tags": [
+      "跨团队协作",
+      "AI功能落地",
+      "沟通能力",
+      "实习经历"
+    ],
+    "ideal_answer_structure": [
+      "S: 功能背景和团队角色",
+      "T: 需要协调的问题",
+      "A: 沟通策略和协作方式",
+      "R: 功能上线+个人贡献边界"
+    ],
+    "scoring_criteria": "角色清晰(20%)+协作细节(30%)+结果量化(25%)+个人边界(25%)",
+    "embedding_text": "[场景:project_dig hr_comprehensive] 跨团队协作 AI功能落地 算法团队 开发团队 沟通能力 实习经历",
+    "scenario_tags": [
+      "project_dig",
+      "hr_comprehensive"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "Q-006",
+    "category": "AI PM校招高频题",
+    "question": "什么是RAG？在产品中如何应用RAG？有什么局限性？",
+    "jd_tags": [
+      "RAG",
+      "检索增强生成",
+      "AI技术理解",
+      "产品应用"
+    ],
+    "ideal_answer_structure": [
+      "原理：检索+生成，用外部知识增强LLM",
+      "应用：知识库问答、文档助手",
+      "局限：检索质量依赖、延迟增加、chunk策略影响效果"
+    ],
+    "scoring_criteria": "原理理解(30%)+应用场景(30%)+局限性认知(25%)+实践经验(15%)",
+    "embedding_text": "[场景:tech_probe] RAG 检索增强生成 知识库 文档助手 chunk embedding 局限性",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "Q-007",
+    "category": "AI PM校招高频题",
+    "question": "如何降低AI产品的幻觉问题？从产品和策略层面你会怎么做？",
+    "jd_tags": [
+      "幻觉",
+      "AI产品策略",
+      "风险控制",
+      "用户体验"
+    ],
+    "ideal_answer_structure": [
+      "策略层：限制回答范围、增加source引用",
+      "产品层：兜底策略、用户反馈闭环",
+      "数据层：评测集+bad case分析"
+    ],
+    "scoring_criteria": "策略完整性(30%)+产品思维(30%)+数据驱动(20%)+实践经验(20%)",
+    "embedding_text": "[场景:tech_probe case_design] 幻觉 AI产品 风险控制 兜底策略 用户体验 bad case 评测集",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "Q-008",
+    "category": "AI PM校招高频题",
+    "question": "请设计一个面向老年用户的AI健康助手，你会怎么思考？",
+    "jd_tags": [
+      "AI产品设计",
+      "用户细分",
+      "适老化",
+      "产品sense"
+    ],
+    "ideal_answer_structure": [
+      "用户分析：老年人使用习惯和痛点",
+      "核心场景：用药提醒+健康咨询+紧急联系",
+      "AI能力：语音交互+简单UI+可靠回答",
+      "风险：医疗信息准确性+隐私"
+    ],
+    "scoring_criteria": "用户洞察(25%)+场景定义(25%)+AI能力匹配(25%)+风险意识(25%)",
+    "embedding_text": "[场景:case_design] AI产品设计 老年用户 健康助手 适老化 用户细分 产品sense 语音交互",
+    "scenario_tags": [
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "JD-001",
+    "category": "企业真实JD",
+    "question": "字节跳动-AI产品经理（搜索方向）-抖音电商搜索-校招",
+    "jd_tags": [
+      "字节跳动",
+      "AI产品",
+      "搜索",
+      "电商",
+      "校招"
+    ],
+    "ideal_answer_structure": [
+      "核心职责：参与抖音电商搜索AI产品方案设计，推进AI智能导购场景建设",
+      "能力要求：了解大模型/生成式AI原理，Prompt/检索增强/Agent认知",
+      "加分项：对Prompt、多轮对话、Agent有认知"
+    ],
+    "scoring_criteria": "逻辑分析+数据分析+沟通协作+AI技术认知",
+    "embedding_text": "[场景:self_intro project_dig] 字节跳动 AI产品经理 搜索 电商 智能导购 大模型 生成式AI Prompt 检索增强 多轮对话 Agent 校招",
+    "scenario_tags": [
+      "self_intro",
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "JD-002",
+    "category": "企业真实JD",
+    "question": "腾讯-AI产品经理培训生（人才专项）-混元/WorkBuddy/ima-校招",
+    "jd_tags": [
+      "腾讯",
+      "AI产品",
+      "培训生",
+      "混元",
+      "校招"
+    ],
+    "ideal_answer_structure": [
+      "核心职责：以项目负责人身份推进AI产品完整流程",
+      "能力要求：AI应用技能+逻辑思维+创新能力+执行力",
+      "重点考察：端到端闭环、架构判断、AI品味、前沿敏感"
+    ],
+    "scoring_criteria": "AI应用技能+逻辑思维+沟通+代码能力加分",
+    "embedding_text": "[场景:self_intro project_dig] 腾讯 AI产品经理 培训生 混元 WorkBuddy 端到端闭环 架构判断 AI品味 前沿敏感 校招",
+    "scenario_tags": [
+      "self_intro",
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "JD-003",
+    "category": "企业真实JD",
+    "question": "阿里巴巴-AI产品经理-通义/达摩院方向-校招",
+    "jd_tags": [
+      "阿里巴巴",
+      "AI产品",
+      "通义",
+      "达摩院",
+      "校招"
+    ],
+    "ideal_answer_structure": [
+      "核心职责：AI应用方案设计，Workflow编排及Prompt设计，将LLM/多模态/Agent/RAG转化为产品功能",
+      "能力要求：AIGC知识+SQL/Python+抽象思维",
+      "加分项：AIGC运营经验+AI解决复杂问题案例"
+    ],
+    "scoring_criteria": "抽象思维+问题拆解+数据能力+AI技术理解",
+    "embedding_text": "[场景:self_intro project_dig] 阿里巴巴 AI产品经理 通义 达摩院 Workflow Prompt设计 LLM 多模态 Agent RAG AIGC SQL Python 校招",
+    "scenario_tags": [
+      "self_intro",
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "JD-004",
+    "category": "企业真实JD",
+    "question": "美团-AI产品经理（CatPaw智能体平台方向）-校招",
+    "jd_tags": [
+      "美团",
+      "AI产品",
+      "智能体平台",
+      "校招"
+    ],
+    "ideal_answer_structure": [
+      "核心职责：与AI核心团队参与项目，自己写Demo做实验",
+      "能力要求：AI改善世界初心+好奇心+学习力+动手能力",
+      "AI产品理解：重度用户+理论基础+AI编程能力+工业实践"
+    ],
+    "scoring_criteria": "好奇心+学习力+动手能力+AI编程+工业实践",
+    "embedding_text": "[场景:self_intro project_dig] 美团 AI产品经理 CatPaw 智能体平台 Demo 实验 AI编程 工业实践 校招",
+    "scenario_tags": [
+      "self_intro",
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "JD-005",
+    "category": "企业真实JD",
+    "question": "拼多多-AI产品方向（C端电商AI）-校招",
+    "jd_tags": [
+      "拼多多",
+      "AI产品",
+      "C端",
+      "电商",
+      "校招"
+    ],
+    "ideal_answer_structure": [
+      "核心职责：C端电商AI应用场景设计，搜索推荐/智能客服/营销导购",
+      "能力要求：AI技术认知+逻辑表达+自驱力+用户思维",
+      "加分项：AI技术概念+深度使用经验+数据处理能力"
+    ],
+    "scoring_criteria": "自驱力+逻辑表达+用户思维+AI认知",
+    "embedding_text": "[场景:self_intro project_dig] 拼多多 AI产品 C端电商 搜索推荐 智能客服 营销导购 大模型 多模态 Agent RAG 校招",
+    "scenario_tags": [
+      "self_intro",
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "S-001",
+    "category": "行业评估量表",
+    "question": "AI PM校招能力模型-技术理解维度",
+    "jd_tags": [
+      "能力评估",
+      "AI技术理解",
+      "评估量表"
+    ],
+    "ideal_answer_structure": [
+      "L1: 知道LLM/RAG/Agent等概念定义",
+      "L2: 能解释原理和适用场景",
+      "L3: 有实际应用经验，能讨论参数和优化",
+      "L4: 能判断技术可行性，做出产品决策"
+    ],
+    "scoring_criteria": "权重20%，考察对AI技术的理解深度和应用判断力",
+    "embedding_text": "[场景:tech_probe project_dig] AI技术理解 能力模型 评估量表 LLM RAG Agent 技术可行性 产品决策",
+    "scenario_tags": [
+      "tech_probe",
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "S-002",
+    "category": "行业评估量表",
+    "question": "AI PM校招能力模型-产品sense维度",
+    "jd_tags": [
+      "能力评估",
+      "产品sense",
+      "评估量表"
+    ],
+    "ideal_answer_structure": [
+      "L1: 能描述产品功能",
+      "L2: 能分析用户需求和痛点",
+      "L3: 能定义产品方案和MVP范围",
+      "L4: 能做产品策略决策和优先级判断"
+    ],
+    "scoring_criteria": "权重20%，考察产品思维和用户洞察力",
+    "embedding_text": "[场景:case_design project_dig] 产品sense 能力模型 评估量表 用户洞察 MVP 产品策略 优先级判断",
+    "scenario_tags": [
+      "case_design",
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "S-003",
+    "category": "行业评估量表",
+    "question": "AI PM校招能力模型-数据分析维度",
+    "jd_tags": [
+      "能力评估",
+      "数据分析",
+      "评估量表"
+    ],
+    "ideal_answer_structure": [
+      "L1: 能看懂基础数据指标",
+      "L2: 能定义指标和设计A/B测试",
+      "L3: 能用数据驱动产品决策",
+      "L4: 能建立评估体系并持续优化"
+    ],
+    "scoring_criteria": "权重15%，考察数据驱动决策能力",
+    "embedding_text": "[场景:case_design tech_probe] 数据分析 能力模型 评估量表 A/B测试 指标定义 数据驱动 评估体系",
+    "scenario_tags": [
+      "case_design",
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "S-004",
+    "category": "行业评估量表",
+    "question": "AI PM校招能力模型-沟通协作维度",
+    "jd_tags": [
+      "能力评估",
+      "沟通协作",
+      "评估量表"
+    ],
+    "ideal_answer_structure": [
+      "L1: 能清晰表达观点",
+      "L2: 能与不同角色有效沟通",
+      "L3: 能协调跨团队推进项目",
+      "L4: 能影响他人决策和处理冲突"
+    ],
+    "scoring_criteria": "权重15%，考察沟通和协作能力",
+    "embedding_text": "[场景:hr_comprehensive project_dig] 沟通协作 能力模型 评估量表 跨团队协调 影响力 冲突处理",
+    "scenario_tags": [
+      "hr_comprehensive",
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "R-001",
+    "category": "真实面试实录",
+    "question": "高级PM专家面试实录-自我介绍环节",
+    "jd_tags": [
+      "自我介绍",
+      "结构化表达",
+      "面试实录"
+    ],
+    "ideal_answer_structure": [
+      "面试官开场结构化说明，降低候选人焦虑",
+      "观察候选人表达逻辑和重点提炼能力",
+      "快速判断与岗位匹配度"
+    ],
+    "scoring_criteria": "结构化表达+重点提炼+岗位匹配判断",
+    "embedding_text": "[场景:self_intro] 自我介绍 结构化表达 面试实录 高级PM 专家面试 开场 岗位匹配 表达逻辑",
+    "scenario_tags": [
+      "self_intro"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "R-002",
+    "category": "真实面试实录",
+    "question": "真实PM面试录音-优惠券系统项目追问",
+    "jd_tags": [
+      "项目追问",
+      "数据溯源",
+      "面试实录",
+      "中后台产品"
+    ],
+    "ideal_answer_structure": [
+      "候选人描述优惠券系统，首月制券批次1000+，会员转化提升10%",
+      "追问点：批次定义？提升基线？A/B测试？",
+      "考察：数据定义清晰度+实验方法严谨性"
+    ],
+    "scoring_criteria": "数据溯源能力+实验方法+逻辑清晰度",
+    "embedding_text": "[场景:project_dig] 面试实录 项目追问 优惠券系统 数据溯源 中后台产品 制券批次 会员转化 A/B测试 基线",
+    "scenario_tags": [
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "R-003",
+    "category": "真实面试实录",
+    "question": "面试天花板9分-AI+智慧校园产品回答",
+    "jd_tags": [
+      "AI产品",
+      "智慧校园",
+      "高分回答",
+      "面试实录"
+    ],
+    "ideal_answer_structure": [
+      "候选人描述利用AI大模型结合智慧校园应用",
+      "从0到1搭建工单系统，效率提升99%",
+      "AI+应用：技术理解+场景落地+数据量化"
+    ],
+    "scoring_criteria": "技术理解+场景落地+数据量化+结构化表达=9分回答",
+    "embedding_text": "[场景:case_design project_dig] 面试天花板 9分 AI大模型 智慧校园 工单系统 效率提升99% 从0到1 高分回答",
+    "scenario_tags": [
+      "case_design",
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "A-001",
+    "category": "STAR高分回答样例",
+    "question": "STAR高分回答：描述一个你从0到1负责的AI产品功能（实习生版）",
+    "jd_tags": [
+      "STAR",
+      "从0到1",
+      "AI产品",
+      "实习经历",
+      "高分回答"
+    ],
+    "ideal_answer_structure": [
+      "S: 实习期间，公司的AI客服回答准确率仅65%，用户投诉率高",
+      "T: mentor让我研究幻觉原因并提出兜底方案",
+      "A: 我分析了200条bad case，发现3类幻觉模式，设计了规则前置过滤+模型兜底的策略",
+      "R: 准确率提升到92%，投诉率下降40%（在mentor指导下完成，我负责bad case分析和规则设计）"
+    ],
+    "scoring_criteria": "STAR完整+A用'我'+R量化+注明mentor指导=高分回答范本",
+    "embedding_text": "[场景:project_dig] STAR高分回答 从0到1 AI产品 实习经历 幻觉 bad case 兜底策略 准确率 投诉率 mentor指导",
+    "scenario_tags": [
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "A-002",
+    "category": "STAR高分回答样例",
+    "question": "STAR高分回答：讲述一次实习中与算法团队协作推进AI功能的经历",
+    "jd_tags": [
+      "STAR",
+      "跨团队协作",
+      "算法团队",
+      "实习经历",
+      "高分回答"
+    ],
+    "ideal_answer_structure": [
+      "S: 实习时负责推荐功能优化，需要和算法团队对接",
+      "T: 算法团队关注模型指标，我关注用户体验，存在目标偏差",
+      "A: 我整理了20条bad case，用用户旅程分析说明问题，推动算法团队增加用户反馈权重",
+      "R: 点击率提升12%，用户满意度+8%（我负责bad case整理和需求沟通，算法团队负责模型调整）"
+    ],
+    "scoring_criteria": "STAR完整+协作细节+个人边界清晰+结果量化",
+    "embedding_text": "[场景:project_dig hr_comprehensive] STAR高分回答 跨团队协作 算法团队 推荐功能 bad case 用户旅程 点击率 用户满意度 实习",
+    "scenario_tags": [
+      "project_dig",
+      "hr_comprehensive"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "A-003",
+    "category": "STAR高分回答样例",
+    "question": "SOAR高分回答：描述一次AI产品设计中遇到的技术约束及你的处理方式",
+    "jd_tags": [
+      "SOAR",
+      "技术约束",
+      "AI产品设计",
+      "高分回答"
+    ],
+    "ideal_answer_structure": [
+      "S: 设计AI文档助手时，LLM响应延迟3-5秒，用户体验差",
+      "O: 需要在保持回答质量的同时降低延迟",
+      "A: 我设计了流式输出+预加载常见问题+缓存高频回答的三层策略",
+      "R: 平均响应时间降到1秒内，用户留存+15%（我负责产品设计，开发团队负责实现）"
+    ],
+    "scoring_criteria": "SOAR完整+技术理解+产品策略+结果量化",
+    "embedding_text": "[场景:tech_probe project_dig] SOAR高分回答 技术约束 AI产品设计 延迟优化 流式输出 预加载 缓存 用户留存",
+    "scenario_tags": [
+      "tech_probe",
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "A-004",
+    "category": "STAR高分回答样例",
+    "question": "实习生贡献安全表述模板：如何准确描述实习贡献而不夸大",
+    "jd_tags": [
+      "实习生贡献",
+      "安全表述",
+      "简历话术",
+      "贡献边界"
+    ],
+    "ideal_answer_structure": [
+      "模板1-参与型：'我参与了XX项目的YY模块，主要负责了ZZ部分，在mentor指导下完成了WW'",
+      "模板2-协助型：'我协助团队完成了XX，具体负责了YY的数据分析和ZZ的策略设计'",
+      "模板3-探索型：'我在实习期间探索了XX方向，产出了YY调研报告，部分建议被团队采纳'"
+    ],
+    "scoring_criteria": "贡献边界清晰+不夸大+有量化+有指导说明",
+    "embedding_text": "[场景:project_dig] 实习生贡献 安全表述 简历话术 贡献边界 参与型 协助型 探索型 mentor指导 不夸大",
+    "scenario_tags": [
+      "project_dig"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "A-005",
+    "category": "STAR高分回答样例",
+    "question": "STAR高分回答：如何评估一个AI功能上线后的效果",
+    "jd_tags": [
+      "STAR",
+      "AI产品评估",
+      "A/B测试",
+      "高分回答"
+    ],
+    "ideal_answer_structure": [
+      "S: AI客服功能上线后需要评估效果",
+      "T: 建立评估体系，判断是否达到预期",
+      "A: 我设计了三层评估：技术指标(准确率/幻觉率)+业务指标(解决率/满意度)+对比基线(上线前)",
+      "R: 准确率85%，幻觉率5%，满意度+18%，超过了预设目标（我负责评估体系设计，数据团队负责数据采集）"
+    ],
+    "scoring_criteria": "STAR完整+评估体系设计+多维度指标+结果量化+个人边界",
+    "embedding_text": "[场景:tech_probe case_design] STAR高分回答 AI产品评估 A/B测试 准确率 幻觉率 解决率 满意度 评估体系 基线对比",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "M-001",
+    "category": "现代面试技巧方法论",
+    "question": "3层穿透验证话术库（阿酥事件后面试趋势）",
+    "jd_tags": [
+      "3层穿透",
+      "阿酥",
+      "面试技巧",
+      "项目还原",
+      "数据溯源",
+      "贡献穿透"
+    ],
+    "ideal_answer_structure": [
+      "Layer1-项目还原：'你的角色边界？哪些是你主导的？上下游是什么？卡在哪？'",
+      "Layer2-数据溯源：'数据怎么算的？基线是什么？实验分了多少流量？你有权限看后台吗？'",
+      "Layer3-贡献穿透：'把你换成另一个实习生，结果会有什么不同？你独特的贡献是什么？'"
+    ],
+    "scoring_criteria": "阿酥事件后面试从'问知不知道'转向'验你是不是真的'，校招生尤其需要准备",
+    "embedding_text": "[场景:project_dig tech_probe] [策略:contribution_probing] 触发词: 我们 负责 主导. 追问话术: 你在其中具体负责哪一块？ 那个方案是谁提的？. 警惕信号: 说不出具体分工 把团队成果说成自己的.  3层穿透 阿酥 面试技巧 项目还原 数据溯源 贡献穿透 角色边界 基线 实验流量 实习生",
+    "scenario_tags": [
+      "project_dig",
+      "tech_probe"
+    ],
+    "strategy_type": "contribution_probing",
+    "trigger_patterns": [
+      "我们",
+      "负责",
+      "主导",
+      "整个",
+      "全程",
+      "统筹"
+    ],
+    "question_templates": [
+      "你在其中具体负责哪一块？",
+      "那个方案是谁提的？",
+      "你和其他人的分工边界在哪？"
+    ],
+    "red_flags": [
+      "说不出具体分工",
+      "把团队成果说成自己的",
+      "无法还原项目细节"
+    ],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "M-002",
+    "category": "现代面试技巧方法论",
+    "question": "5类警惕信号定义及检测方法（面试官红旗判断逻辑）",
+    "jd_tags": [
+      "警惕信号",
+      "面试技巧",
+      "红旗判断",
+      "阿酥"
+    ],
+    "ideal_answer_structure": [
+      "信号1-只讲理念不讲细节：Action环节仅有方法论无执行细节",
+      "信号2-只讲努力不讲结果：Result环节缺失量化指标",
+      "信号3-频繁用'我们'模糊贡献：'我们'占比>60%",
+      "信号4-回答模板化但无法自圆其说：跨题目套路化结构",
+      "信号5-术语堆砌无执行细节：AI黑话密度高但参数/流程说不出"
+    ],
+    "scoring_criteria": "5类信号映射面试官'红旗'判断，校招生最常犯信号3和5",
+    "embedding_text": "[场景:project_dig tech_probe] [策略:data_probing] 触发词: 效果不错 有提升 还可以. 追问话术: 这个数据你是从哪看到的？ 统计周期是多久？分母是什么？. 警惕信号: 数据前后矛盾 说不出具体数字.  警惕信号 面试技巧 红旗判断 只讲理念不讲细节 只讲努力不讲结果 我们模糊贡献 回答模板化 术语堆砌 阿酥",
+    "scenario_tags": [
+      "project_dig",
+      "tech_probe"
+    ],
+    "strategy_type": "data_probing",
+    "trigger_patterns": [
+      "效果不错",
+      "有提升",
+      "还可以",
+      "大概",
+      "差不多",
+      "约"
+    ],
+    "question_templates": [
+      "这个数据你是从哪看到的？",
+      "统计周期是多久？分母是什么？",
+      "你有权限看这个数据吗？"
+    ],
+    "red_flags": [
+      "数据前后矛盾",
+      "说不出具体数字",
+      "不知道数据从哪来"
+    ],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "M-003",
+    "category": "现代面试技巧方法论",
+    "question": "项目证据链六环节模板（背景→问题→角色→动作→取舍→结果）",
+    "jd_tags": [
+      "证据链",
+      "面试技巧",
+      "项目验证",
+      "真实性",
+      "参与度",
+      "判断力"
+    ],
+    "ideal_answer_structure": [
+      "环节1-背景：为什么做这个项目？",
+      "环节2-问题：解决什么问题？",
+      "环节3-角色：你是什么角色？",
+      "环节4-动作：你具体做了什么？",
+      "环节5-取舍：为什么这样选？ alternatives？",
+      "环节6-结果：效果如何？数据支撑？"
+    ],
+    "scoring_criteria": "面试官验证三件事：真实性、参与度、判断力。六环节缺失环节标注受影响的验证维度",
+    "embedding_text": "[场景:project_dig] [策略:contribution_probing] 触发词: 负责了 参与了 做了. 追问话术: 能还原一下项目的背景吗？ 你在项目中的角色是什么？. 警惕信号: 项目背景模糊 角色定位不清.  项目证据链 面试技巧 背景 问题 角色 动作 取舍 结果 真实性 参与度 判断力 六环节",
+    "scenario_tags": [
+      "project_dig"
+    ],
+    "strategy_type": "contribution_probing",
+    "trigger_patterns": [
+      "负责了",
+      "参与了",
+      "做了",
+      "主导",
+      "推动"
+    ],
+    "question_templates": [
+      "能还原一下项目的背景吗？",
+      "你在项目中的角色是什么？",
+      "做了哪些取舍？为什么？"
+    ],
+    "red_flags": [
+      "项目背景模糊",
+      "角色定位不清",
+      "取舍理由缺失"
+    ],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "TECH-01",
+    "category": "tech_docs",
+    "title": "测试时计算扩展（Test-Time Compute & Inference Scaling）",
+    "summary": {
+      "技术背景": "测试时计算扩展（Test-Time Compute Scaling）将算力投入从离线预训练延伸至在线推理阶段。其核心问题定义为：在预训练基座参数冻结的前提下，如何在推理时刻动态分配计算资源（增加思考Token步数、拓展候选采样宽度、加深树搜索探索深度），系统性激活模型的高阶逻辑推理、反思检验与自我纠错能力，使复杂问题求解准确率呈现类幂律增长。",
+      "核心原理": "测试时计算扩展（Test-Time Compute Scaling）将算力投入从离线预训练延伸至在线推理阶段。其核心问题定义为：在预训练基座参数冻结的前提下，如何在推理时刻动态分配计算资源（增加思考Token步数、拓展候选采样宽度、加深树搜索探索深度），系统性激活模型的高阶逻辑推理、反思检验与自我纠错能力，使复杂问题求解准确率呈现类幂律增长。 相较于结果奖励模型（ORM）仅给出终局标量反馈，PRM对中间逻辑步单独评估置信概率 r(s_t \\mid x, s_{<t})。全路径累积价值函数定义为各步骤概率的乘积：",
+      "产品意义": "相较于结果奖励模型（ORM）仅给出终局标量反馈，PRM对中间逻辑步单独评估置信概率 r(s_t \\mid x, s_{<t})。全路径累积价值函数定义为各步骤概率的乘积： 2026年，以OpenAI o1/o3及DeepSeek-R1为标志，测试时计算扩展正式确立为前沿大模型的核心基石。业界演进重心已从外挂搜索转向强化学习诱导内生推理能力（RL-induced Reasoning）。模型在自我博弈中学会隐式回溯、假设检验与自适应调整思维链长度。在智能体软件工程、芯片时序验证及形式化数学证明等前沿领域，按测试时算力弹性计费的商业模式已全面铺开。",
+      "挑战局限": "测试时计算扩展（Test-Time Compute Scaling）将算力投入从离线预训练延伸至在线推理阶段。其核心问题定义为：在预训练基座参数冻结的前提下，如何在推理时刻动态分配计算资源（增加思考Token步数、拓展候选采样宽度、加深树搜索探索深度），系统性激活模型的高阶逻辑推理、反思检验与自我纠错能力，使复杂问题求解准确率呈现类幂律增长。 1. 任务难度路由层：评估输入问题复杂度，为简单任务分配单路径采样，为复杂任务配置深层MCTS配额。"
+    },
+    "pm_key_points": [
+      "相较于结果奖励模型（ORM）仅给出终局标量反馈，PRM对中间逻辑步单独评估置信概率 r(s_t \\mid x, s_{<t})。全路径累积价值函数定义为各步骤概率的乘积：",
+      "2026年，以OpenAI o1/o3及DeepSeek-R1为标志，测试时计算扩展正式确立为前沿大模型的核心基石。业界演进重心已从外挂搜索转向强化学习诱导内生推理能力（RL-induced Reasoning）。模型在自我博弈中学会隐式回溯、假设检验与自适应调整思维链长度。在智能体软件工程、芯片时序验证及形式化数学证明等前沿领域，按测试时算力弹性计费的商业模式已全面铺开。"
+    ],
+    "source": "01_测试时计算扩展与推理缩放架构.docx",
+    "embedding_text": "[场景:tech_probe case_design] [难度:hard] 当候选人提到 测试时计算扩展（Test-Time Compute & In 时可追问的技术点。 编造识别: 只知道概念名称说不出原理 把测试时计算和推理优化混为一谈.  测试时计算扩展（Test-Time Compute & Inference Scaling） 技术背景:测试时计算扩展（Test-Time Compute Scaling）将算力投入从离线预训练延伸至在线推理阶段。其核心问题定义为：在预训练基座参数冻结的前提下，如何在推理时刻动态分配计算资源（增加思考Token步数、拓展候选采样宽度、加深树搜索探索深度），系统性激活模型的高阶逻辑推理、反思检验与自",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "hard",
+    "fabrication_patterns": [
+      "只知道概念名称说不出原理",
+      "把测试时计算和推理优化混为一谈"
+    ]
+  },
+  {
+    "id": "TECH-02",
+    "category": "tech_docs",
+    "title": "多头潜在注意力机制（Multi-Head Latent Attention, MLA）",
+    "summary": {
+      "核心原理": "MLA的核心思想在于“低秩联合压缩（Low-Rank Compression）”与“旋转位置编码（RoPE）解耦”。 系统定义吸收矩阵 W_i^{Q-K} = W_i^{UQ \top} W_i^{UK}，在计算前将Query预乘投影为 \tilde{q}_{t,i} = c_t^{Q \top} W_i^{Q-K}，随后直接与缓存的压缩向量 c_j^{KV} 计算内积。同理，Value投影矩阵 W_i^{UV} 与输出投影矩阵 W^O 合并。整个过程无需在显存中还原出完整的Key与Value矩阵。",
+      "架构要点": "多查询注意力（MQA）与分组查询注意力（GQA）虽能压缩缓存，但强行共享注意力头不可避免地削弱了模型表征容量与细节检索能力。多头潜在注意力（MLA）由DeepSeek架构创新提出，其核心目标是：在解码阶段将KV-Cache压缩至逼近MQA的极致水平，同时通过低秩投影与数学吸收变换，保持甚至超越标准MHA的模型表达能力。 截至2026年，MLA已成为万亿级超大规模基础模型的通用事实标准。从DeepSeek全系模型到开源与闭源社区的各大主流架构，MLA全面取代了传统的GQA方案。结合FP8量化技术，MLA彻底化解了百万级长序列上下文与高吞吐量在线服务之间的物理冲突，成为支撑大模型云端低成本规模化商用的核心底层动力。"
+    },
+    "pm_key_points": [
+      "截至2026年，MLA已成为万亿级超大规模基础模型的通用事实标准。从DeepSeek全系模型到开源与闭源社区的各大主流架构，MLA全面取代了传统的GQA方案。结合FP8量化技术，MLA彻底化解了百万级长序列上下文与高吞吐量在线服务之间的物理冲突，成为支撑大模型云端低成本规模化商用的核心底层动力。"
+    ],
+    "source": "02_多头潜在注意力机制_MLA.docx",
+    "embedding_text": "[场景:tech_probe] [难度:hard] 当候选人提到 多头潜在注意力机制（Multi-Head Latent At 时可追问的技术点。 编造识别: 说不出MLA和标准MHA的区别 只知道注意力机制这个词.  多头潜在注意力机制（Multi-Head Latent Attention, MLA） 核心原理:MLA的核心思想在于“低秩联合压缩（Low-Rank Compression）”与“旋转位置编码（RoPE）解耦”。 系统定义吸收矩阵 W_i^{Q-K} = W_i^{UQ \top} W_i^{UK}，在计算前将Query预乘投影为 \tilde{q}_{t,i} = c_t^{Q \top} W_i^",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "hard",
+    "fabrication_patterns": [
+      "说不出MLA和标准MHA的区别",
+      "只知道注意力机制这个词"
+    ]
+  },
+  {
+    "id": "TECH-03",
+    "category": "tech_docs",
+    "title": "细粒度混合专家架构（Fine-Grained Mixture of Experts, MoE）",
+    "summary": {
+      "技术背景": "然而，粗粒度MoE面临两大根本痛点：一是专家专业化模糊（Coarse Specialization），每个粗粒度专家内部仍被迫学习混合特征，参数表达效率低下；二是知识割裂与重复，基础通用常识在多个专家间冗余存储。细粒度混合专家架构（Fine-Grained MoE，以DeepSeekMoE为代表）通过子专家微切分与独立共享专家常驻机制，彻底重塑了稀疏专家的组织逻辑。",
+      "核心原理": "随着大模型参数体量向万亿级别演进，稠密（Dense）架构的单Token前向推理浮点运算量（FLOPs）呈线性激增，导致训练与推理能耗不堪重负。传统稀疏混合专家（Sparse MoE，如Mixtral 8x7B）通过门控机制将前馈网络（FFN）替换为若干离散专家，在每个Token上仅激活Top-1或Top-2个专家，实现了“参数总容量扩展而激活计算量受限”。 然而，粗粒度MoE面临两大根本痛点：一是专家专业化模糊（Coarse Specialization），每个粗粒度专家内部仍被迫学习混合特征，参数表达效率低下；二是知识割裂与重复，基础通用常识在多个专家间冗余存储。细粒度混合专家架构（Fine-Grained MoE，以DeepSeekMoE为代表）通过子专家微切分与独立共享专家常驻机制，彻底重塑了稀疏专家的组织逻辑。",
+      "架构要点": "随着大模型参数体量向万亿级别演进，稠密（Dense）架构的单Token前向推理浮点运算量（FLOPs）呈线性激增，导致训练与推理能耗不堪重负。传统稀疏混合专家（Sparse MoE，如Mixtral 8x7B）通过门控机制将前馈网络（FFN）替换为若干离散专家，在每个Token上仅激活Top-1或Top-2个专家，实现了“参数总容量扩展而激活计算量受限”。 然而，粗粒度MoE面临两大根本痛点：一是专家专业化模糊（Coarse Specialization），每个粗粒度专家内部仍被迫学习混合特征，参数表达效率低下；二是知识割裂与重复，基础通用常识在多个专家间冗余存储。细粒度混合专家架构（Fine-Grained MoE，以DeepSeekMoE为代表）通过子专家微切分与独立共享专家常驻机制，彻底重塑了稀疏专家的组织逻辑。"
+    },
+    "pm_key_points": [],
+    "source": "03_细粒度混合专家架构_MoE.docx",
+    "embedding_text": "[场景:tech_probe] [难度:hard] 当候选人提到 细粒度混合专家架构（Fine-Grained Mixture 时可追问的技术点。 编造识别: 把MoE说成简单的模型集成 说不出稀疏路由的含义.  细粒度混合专家架构（Fine-Grained Mixture of Experts, MoE） 技术背景:然而，粗粒度MoE面临两大根本痛点：一是专家专业化模糊（Coarse Specialization），每个粗粒度专家内部仍被迫学习混合特征，参数表达效率低下；二是知识割裂与重复，基础通用常识在多个专家间冗余存储。细粒度混合专家架构（Fine-Grained MoE，以DeepSeekMoE为代",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "hard",
+    "fabrication_patterns": [
+      "把MoE说成简单的模型集成",
+      "说不出稀疏路由的含义"
+    ]
+  },
+  {
+    "id": "TECH-04",
+    "category": "tech_docs",
+    "title": "推测解码与多Token预测架构（Speculative Decoding & Multi-Token Prediction, MTP）",
+    "summary": {
+      "技术背景": "推测解码（Speculative Decoding）与多Token预测（Multi-Token Prediction, MTP）旨在打破这一物理限制。其核心问题定义为：在保证输出序列概率分布与目标大模型严格数学等价（Lossless Decoding）的前提下，如何以极低计算成本高效预测未来候选Token，并在目标大模型单次前向传播中执行批量并行验证，将单步生成步长扩展至多个Token，从而实现推理端到端时延成倍缩减。",
+      "核心原理": "推测解码（Speculative Decoding）与多Token预测（Multi-Token Prediction, MTP）旨在打破这一物理限制。其核心问题定义为：在保证输出序列概率分布与目标大模型严格数学等价（Lossless Decoding）的前提下，如何以极低计算成本高效预测未来候选Token，并在目标大模型单次前向传播中执行批量并行验证，将单步生成步长扩展至多个Token，从而实现推理端到端时延成倍缩减。 推测解码构建了“轻量草稿生成（Drafting）+ 目标模型并行验证（Verification）”的高效协同机制。",
+      "架构要点": "为解决独立草稿小模型维护成本高与表征空间偏离的问题，MTP架构（如DeepSeek-V3 MTP）将推测能力内生于主干模型： 在主干顶层级联 D 个轻量级顺序预测头。每个MTP模块基于前序隐层与对应输入执行循环推导：",
+      "应用场景": "进入2026年，推测解码与MTP已完成从“外挂式技巧”向“预训练核心架构”的重大蜕变。以DeepSeek-V3为代表的前沿架构在预训练阶段端到端联合训练主干与MTP模块。各大云厂商模型服务全量默认启用推测加速引擎。在代码编写、长文本处理与结构化JSON生成等确定性极强的场景中，单步接受Token数大幅攀升，推动每Token推理成本呈断崖式下降。",
+      "挑战局限": "推测解码（Speculative Decoding）与多Token预测（Multi-Token Prediction, MTP）旨在打破这一物理限制。其核心问题定义为：在保证输出序列概率分布与目标大模型严格数学等价（Lossless Decoding）的前提下，如何以极低计算成本高效预测未来候选Token，并在目标大模型单次前向传播中执行批量并行验证，将单步生成步长扩展至多个Token，从而实现推理端到端时延成倍缩减。 为解决独立草稿小模型维护成本高与表征空间偏离的问题，MTP架构（如DeepSeek-V3 MTP）将推测能力内生于主干模型："
+    },
+    "pm_key_points": [
+      "推测解码（Speculative Decoding）与多Token预测（Multi-Token Prediction, MTP）旨在打破这一物理限制。其核心问题定义为：在保证输出序列概率分布与目标大模型严格数学等价（Lossless Decoding）的前提下，如何以极低计算成本高效预测未来候选Token，并在目标大模型单次前向传播中执行批量并行验证，将单步生成步长扩展至多个Token，从而实现推",
+      "为解决独立草稿小模型维护成本高与表征空间偏离的问题，MTP架构（如DeepSeek-V3 MTP）将推测能力内生于主干模型：",
+      "进入2026年，推测解码与MTP已完成从“外挂式技巧”向“预训练核心架构”的重大蜕变。以DeepSeek-V3为代表的前沿架构在预训练阶段端到端联合训练主干与MTP模块。各大云厂商模型服务全量默认启用推测加速引擎。在代码编写、长文本处理与结构化JSON生成等确定性极强的场景中，单步接受Token数大幅攀升，推动每Token推理成本呈断崖式下降。"
+    ],
+    "source": "04_推测解码与多Token预测架构.docx",
+    "embedding_text": "[场景:tech_probe] [难度:medium] 当候选人提到 推测解码与多Token预测架构（Speculative De 时可追问的技术点。 编造识别: 把推测解码和投机解码混用 说不出多token预测的原理.  推测解码与多Token预测架构（Speculative Decoding & Multi-Token Prediction, MTP） 技术背景:推测解码（Speculative Decoding）与多Token预测（Multi-Token Prediction, MTP）旨在打破这一物理限制。其核心问题定义为：在保证输出序列概率分布与目标大模型严格数学等价（Lossless Decoding）的",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "medium",
+    "fabrication_patterns": [
+      "把推测解码和投机解码混用",
+      "说不出多token预测的原理"
+    ]
+  },
+  {
+    "id": "TECH-05",
+    "category": "tech_docs",
+    "title": "混合状态空间-注意力架构（Hybrid SSM-Transformer / Mamba-Transformer）",
+    "summary": {
+      "核心原理": "标准Transformer依赖全局自注意力机制（Self-Attention），其计算复杂度与显存占用随序列长度 L 呈二次方增长 O(L^2)。当处理长达数百万Token的长文档理解、仓库级代码分析及连续多模态长序列时，自注意力的计算耗时与KV-Cache的显存膨胀构成了不可逾越的鸿沟。",
+      "架构要点": "状态空间模型（State Space Models, SSM，以S4和Mamba为代表）通过连续控制系统的线性时不变/时变离散化，实现了严格线性时间复杂度 O(L) 和常量级推理显存 O(1)。但纯SSM由于状态容量受限，在长程联想检索（Associative Recall）与细粒度跨上下文复制上存在固有缺陷。混合架构（Hybrid SSM-Transformer）应运而生：结合SSM的线性复杂度与注意力的精准检索能力，兼顾极致吞吐与卓越表征。 混合架构的核心在于选择性状态空间（Selective SSM）与稀疏/周期性多头注意力的交织融合。",
+      "产品意义": "2026年，混合SSM-Transformer已成长为主流架构不可或缺的核心流派。以AI21 Labs的Jamba系列、Samba及英伟达Nemotron-H为代表的大规模生产级模型，全面验证了其在超长序列场景下的工程价值。在工业级百万Token文档检索、长视频多模态理解以及端侧低功耗常驻助手等场景中，混合架构凭借兼备线性复杂度推理速度与全局精准召回的独特优势，成为高吞吐长上下文场景的首选架构。",
+      "应用场景": "2026年，混合SSM-Transformer已成长为主流架构不可或缺的核心流派。以AI21 Labs的Jamba系列、Samba及英伟达Nemotron-H为代表的大规模生产级模型，全面验证了其在超长序列场景下的工程价值。在工业级百万Token文档检索、长视频多模态理解以及端侧低功耗常驻助手等场景中，混合架构凭借兼备线性复杂度推理速度与全局精准召回的独特优势，成为高吞吐长上下文场景的首选架构。"
+    },
+    "pm_key_points": [
+      "- 若Attention比例过低（如15:1），在大海捞针（Needle In A Haystack）复杂召回评测中得分显著下降；",
+      "2026年，混合SSM-Transformer已成长为主流架构不可或缺的核心流派。以AI21 Labs的Jamba系列、Samba及英伟达Nemotron-H为代表的大规模生产级模型，全面验证了其在超长序列场景下的工程价值。在工业级百万Token文档检索、长视频多模态理解以及端侧低功耗常驻助手等场景中，混合架构凭借兼备线性复杂度推理速度与全局精准召回的独特优势，成为高吞吐长上下文场景的首选架构。"
+    ],
+    "source": "05_混合状态空间-注意力架构_Mamba-Transformer.docx",
+    "embedding_text": "[场景:tech_probe] [难度:hard] 当候选人提到 混合状态空间-注意力架构（Hybrid SSM-Transf 时可追问的技术点。 编造识别: 只知道Transformer不知道Mamba 说不出SSM和注意力的区别.  混合状态空间-注意力架构（Hybrid SSM-Transformer / Mamba-Transformer） 核心原理:标准Transformer依赖全局自注意力机制（Self-Attention），其计算复杂度与显存占用随序列长度 L 呈二次方增长 O(L^2)。当处理长达数百万Token的长文档理解、仓库级代码分析及连续多模态长序列时，自注意力的计算耗时与KV-Cache的显存膨胀构成了不",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "hard",
+    "fabrication_patterns": [
+      "只知道Transformer不知道Mamba",
+      "说不出SSM和注意力的区别"
+    ]
+  },
+  {
+    "id": "TECH-06",
+    "category": "tech_docs",
+    "title": "1-比特与三值量化神经网络：BitNet b1.58 与超低比特计算架构 (1-bit and Ternary Quantized Neural Networks: BitNet b1.58 and Ultra-Low-Bit Architecture)",
+    "summary": {
+      "技术背景": "三值量化神经网络（以 BitNet b1.58 为代表）在此背景下提供了范式级突破：将网络中所有密集线性层权重严格约束在三元离散集合 \\{-1, 0, 1\\} 中。依据信息论，表示三个离散状态所需的理论编码长度仅为 \\log_2(3) \\approx 1.585 比特。该技术将高复杂度的浮点矩阵乘法彻底降维为纯整数加减法与累加寻址，消除了高能耗浮点乘法器，重塑了低功耗大模型推理的底层物理计算基础。",
+      "核心原理": "为保留权重动态分布并抑制离群点干扰，定义全矩阵绝对值均值为缩放因子 \\gamma： 2. 异构混合精度架构（Hybrid 1.58b）：主流模型采用分层量化——注意力机制 KV 缓存保留 INT4/INT8 保证长文本检索，参数占比高的 FFN 模块全面落地 BitNet b1.58，达到性能与精度的工程帕累托平衡点。",
+      "架构要点": "现代计算架构以 8-bit 字节为寻址单元。工程上采用 2-bit 紧凑编码（00对应0，01对应+1，11对应-1），单字节封装 4 个三元权重；更极致方案采用基数-3 压缩，单字节容纳 5 个三值（3^5 = 243 < 256），显存开销降至极限 1.6-bit。 • 扩展律与容量折损：低于 1B 参数时表征能力存在轻微劣势；在模型规模突破 3B/7B 阈值后，结构冗余抵消量化损耗，困惑度完美对齐全精度基线，换取 3~4 倍吞吐跃升。",
+      "产品意义": "2. 异构混合精度架构（Hybrid 1.58b）：主流模型采用分层量化——注意力机制 KV 缓存保留 INT4/INT8 保证长文本检索，参数占比高的 FFN 模块全面落地 BitNet b1.58，达到性能与精度的工程帕累托平衡点。"
+    },
+    "pm_key_points": [
+      "2. 异构混合精度架构（Hybrid 1.58b）：主流模型采用分层量化——注意力机制 KV 缓存保留 INT4/INT8 保证长文本检索，参数占比高的 FFN 模块全面落地 BitNet b1.58，达到性能与精度的工程帕累托平衡点。"
+    ],
+    "source": "06_一比特与三值量化神经网络_BitNet.docx",
+    "embedding_text": "[场景:tech_probe] [难度:hard] 当候选人提到 1-比特与三值量化神经网络：BitNet b1.58 与超低 时可追问的技术点。 编造识别: 只听过量化不知道1-bit 说不出BitNet和普通量化的区别.  1-比特与三值量化神经网络：BitNet b1.58 与超低比特计算架构 (1-bit and Ternary Quantized Neural Networks: BitNet b1.58 and Ultra-Low-Bit Architecture) 技术背景:三值量化神经网络（以 BitNet b1.58 为代表）在此背景下提供了范式级突破：将网络中所有密集线性层权重严格约束在三元离散集合 ",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "hard",
+    "fabrication_patterns": [
+      "只听过量化不知道1-bit",
+      "说不出BitNet和普通量化的区别"
+    ]
+  },
+  {
+    "id": "TECH-07",
+    "category": "tech_docs",
+    "title": "视觉-语言-动作一体化具身模型：端到端感知决策与机器人控制架构 (Vision-Language-Action Models: End-to-End Embodied Perception-Decision and Robotic Control Architecture)",
+    "summary": {
+      "架构要点": "传统具身机器人系统多采用解耦分级架构：视觉模块完成目标检测与 6D 位姿估计，大语言模型进行高层逻辑拆解，底层运动控制器（如阻抗控制器与逆运动学解算器）驱动电机。该模式存在感知误差逐级放大、多模态语义脱节、非结构化长尾场景适应力差等固有缺陷。 针对单臂、双臂及人形机器人等异构物理实体，设计轻量投影矩阵 W_{\\text{robot}}，统一映射至标准化隐空间，实现单个基座模型跨构型零样本部署。",
+      "产品意义": "1. 高端精密装配规模应用：在汽车总成线束安装与异形元件插装场景中，VLA 取代传统示教编程，长程任务执行成功率突破 98.5%。",
+      "应用场景": "传统具身机器人系统多采用解耦分级架构：视觉模块完成目标检测与 6D 位姿估计，大语言模型进行高层逻辑拆解，底层运动控制器（如阻抗控制器与逆运动学解算器）驱动电机。该模式存在感知误差逐级放大、多模态语义脱节、非结构化长尾场景适应力差等固有缺陷。 1. 高端精密装配规模应用：在汽车总成线束安装与异形元件插装场景中，VLA 取代传统示教编程，长程任务执行成功率突破 98.5%。"
+    },
+    "pm_key_points": [
+      "传统具身机器人系统多采用解耦分级架构：视觉模块完成目标检测与 6D 位姿估计，大语言模型进行高层逻辑拆解，底层运动控制器（如阻抗控制器与逆运动学解算器）驱动电机。该模式存在感知误差逐级放大、多模态语义脱节、非结构化长尾场景适应力差等固有缺陷。",
+      "1. 高端精密装配规模应用：在汽车总成线束安装与异形元件插装场景中，VLA 取代传统示教编程，长程任务执行成功率突破 98.5%。"
+    ],
+    "source": "07_视觉-语言-动作一体化具身模型_VLA.docx",
+    "embedding_text": "[场景:tech_probe case_design] [难度:hard] 当候选人提到 视觉-语言-动作一体化具身模型：端到端感知决策与机器人控制架 时可追问的技术点。 编造识别: 把VLA说成简单的多模态 说不出端到端和分模块的区别.  视觉-语言-动作一体化具身模型：端到端感知决策与机器人控制架构 (Vision-Language-Action Models: End-to-End Embodied Perception-Decision and Robotic Control Architecture) 架构要点:传统具身机器人系统多采用解耦分级架构：视觉模块完成目标检测与 6D 位姿估计，大语言模型进行高层逻辑拆解，底层运动",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "hard",
+    "fabrication_patterns": [
+      "把VLA说成简单的多模态",
+      "说不出端到端和分模块的区别"
+    ]
+  },
+  {
+    "id": "TECH-08",
+    "category": "tech_docs",
+    "title": "物理真实世界模型：基于联合嵌入预测架构（JEPA）的时空表征与动态仿真 (Physical World Models: Spatiotemporal Representation and Dynamic Simulation via Joint-Embedding Predictive Architecture)",
+    "summary": {
+      "架构要点": "非生成式物理世界模型——联合嵌入预测架构（Joint-Embedding Predictive Architecture, JEPA）为此开辟了全新路径。JEPA 彻底舍弃像素解码重构，转而在高度抽象的隐空间中预测未来物理动力学演进，专注于物体碰撞、重力刚体运动与接触因果规律的精确建模。 JEPA 架构通过联合嵌入对比预测与流形正则化，杜绝表征塌缩（Representation Collapse）。"
+    },
+    "pm_key_points": [],
+    "source": "08_物理真实世界模型与JEPA架构.docx",
+    "embedding_text": "[场景:tech_probe case_design] [难度:hard] 当候选人提到 物理真实世界模型：基于联合嵌入预测架构（JEPA）的时空表征 时可追问的技术点。 编造识别: 把JEPA说成简单的预测模型 说不出联合嵌入的含义.  物理真实世界模型：基于联合嵌入预测架构（JEPA）的时空表征与动态仿真 (Physical World Models: Spatiotemporal Representation and Dynamic Simulation via Joint-Embedding Predictive Architecture) 架构要点:非生成式物理世界模型——联合嵌入预测架构（Joint-Embedding ",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "hard",
+    "fabrication_patterns": [
+      "把JEPA说成简单的预测模型",
+      "说不出联合嵌入的含义"
+    ]
+  },
+  {
+    "id": "TECH-09",
+    "category": "tech_docs",
+    "title": "原生全模态端到端统一架构：文本、语音与视觉的早期融合与统一表征 (Native Omni Multimodal Architecture: Early Fusion and Unified Representation of Text, Speech, and Vision)",
+    "summary": {
+      "架构要点": "早期多模态大模型多采用“级联拼接管道”（Cascaded Pipeline）：语音输入经过自动语音识别（ASR）转换为文本，交由语言模型推理，再由语音合成（TTS）输出；视觉模块则通过分离的 ViT 抽取特征并投影拼装。 此类架构存在不可逆缺陷：流水线叠加导致端到端延迟高达数秒；语音中的语气、情绪、重音以及环境声在文本化过程中彻底丢失；各模态割裂表征难以捕捉微妙的交叉因果关联。",
+      "应用场景": "2. 轻量 AR 视听伴侣：赋能新一代智能眼镜，实现视听完全同步的毫秒级同声传译与物理场景无感导览，重构了消费级人机交互界面。"
+    },
+    "pm_key_points": [
+      "2. 轻量 AR 视听伴侣：赋能新一代智能眼镜，实现视听完全同步的毫秒级同声传译与物理场景无感导览，重构了消费级人机交互界面。"
+    ],
+    "source": "09_原生全模态端到端统一架构.docx",
+    "embedding_text": "[场景:tech_probe case_design] [难度:medium] 当候选人提到 原生全模态端到端统一架构：文本、语音与视觉的早期融合与统一表 时可追问的技术点。 编造识别: 只知道多模态不知道原生融合 说不出早期融合和晚期融合的区别.  原生全模态端到端统一架构：文本、语音与视觉的早期融合与统一表征 (Native Omni Multimodal Architecture: Early Fusion and Unified Representation of Text, Speech, and Vision) 架构要点:早期多模态大模型多采用“级联拼接管道”（Cascaded Pipeline）：语音输入经过自动语音识别（ASR）",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "medium",
+    "fabrication_patterns": [
+      "只知道多模态不知道原生融合",
+      "说不出早期融合和晚期融合的区别"
+    ]
+  },
+  {
+    "id": "TECH-10",
+    "category": "tech_docs",
+    "title": "可验证奖励强化学习：规则驱动与形式化验证下的推理能力跃升 (Reinforcement Learning with Verifiable Rewards: Advancing Reasoning via Rule-Based and Formal Verification)",
+    "summary": {
+      "架构要点": "基于人类反馈的强化学习（RLHF）推动了大语言模型指令对齐。然而经典 RLHF 依赖神经网络拟合的奖励模型（Reward Model，多基于 Bradley-Terry 模型）。在数学证明、算法编码与芯片设计等严谨任务中，神经打分器极易诱发“奖励作弊/黑客”（Reward Hacking）、偏好幻觉以及对冗长错误答案的盲目谄媚。 每轮梯度迭代需执行数十万次动态代码验证。采用内存预热容器池架构，将沙箱交互延迟压缩至 20ms 以内，消除训练流水线阻塞。",
+      "产品意义": "RLVR 普遍融合无价值网络（Critic-free）的策略梯度优化算法（如 GRPO）与形式化规则奖励。 在纯 RLVR 训练中，模型自主演变出深度反思、假设推翻与回溯试错行为。工程关键是动态调节长度惩罚权重 \\lambda_2，防止产生无意义废话，保持思考深度与推理算力消耗的平衡。",
+      "挑战局限": "对于输入问题 q，旧策略网络 \\pi_{\\theta_{\\text{old}}} 并行采样 G 个候选解答 \\{o_1, o_2, \\dots, o_G\\}。各解答经外部验证器获得确定性标量奖励 \\{r_1, r_2, \\dots, r_G\\}。"
+    },
+    "pm_key_points": [
+      "RLVR 普遍融合无价值网络（Critic-free）的策略梯度优化算法（如 GRPO）与形式化规则奖励。"
+    ],
+    "source": "10_可验证奖励强化学习_RLVR.docx",
+    "embedding_text": "[场景:tech_probe] [难度:hard] 当候选人提到 可验证奖励强化学习：规则驱动与形式化验证下的推理能力跃升 ( 时可追问的技术点。 编造识别: 把RLHF和RLVR混用 说不出规则驱动和人类反馈的区别.  可验证奖励强化学习：规则驱动与形式化验证下的推理能力跃升 (Reinforcement Learning with Verifiable Rewards: Advancing Reasoning via Rule-Based and Formal Verification) 架构要点:基于人类反馈的强化学习（RLHF）推动了大语言模型指令对齐。然而经典 RLHF 依赖神经网络拟合的奖励模型（Rew",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "hard",
+    "fabrication_patterns": [
+      "把RLHF和RLVR混用",
+      "说不出规则驱动和人类反馈的区别"
+    ]
+  },
+  {
+    "id": "TECH-11",
+    "category": "tech_docs",
+    "title": "多智能体协作协议与群体智能架构（Multi-Agent Swarm Orchestration & A2A Protocols）",
+    "summary": {
+      "核心原理": "2. 等待图（Wait-For-Graph）与死锁解脱：维护全局依赖拓扑，引入基于TTL的动态租约与状态检查点回滚机制，消除循环等待风险；",
+      "架构要点": "随着大语言模型在多步长程规划与高维复杂决策中面临上下文受限与幻觉累积等瓶颈，构建由专用微型智能体组成的分布式群体智能系统（MAS）成为核心演进路径。然而，简单提示词拼接的线性流水线难以应对动态任务。当前群体智能架构亟需突破三项根本性瓶颈： - *中心式Orchestrator vs 去中心化Swarm*：中心化调度确定性高且易于调试，但高并发下网关易成吞吐瓶颈；完全去中心化集群鲁棒性强，但收敛较慢且Token消耗剧增。2026年主流方案普遍采用“全局DAG骨干协调+局部簇自主协商”的联邦架构。",
+      "产品意义": "在2026年，行业已形成跨框架互操作的标准化A2A协议体系（如Open-A2A RFC）。该技术在超大规模自动软件工程（数百Agent协同完成需求拆解、全栈编码、对抗性测试与自动化运维）以及复杂工业物流柔性调度场景中全面落地，千级集群任务自主收敛成功率突破94.5%。",
+      "应用场景": "4. 共享黑板状态汇聚：通过CRDT（无冲突复制数据类型）与分布式事务日志，实现高并发场景下的强最终一致性。 在2026年，行业已形成跨框架互操作的标准化A2A协议体系（如Open-A2A RFC）。该技术在超大规模自动软件工程（数百Agent协同完成需求拆解、全栈编码、对抗性测试与自动化运维）以及复杂工业物流柔性调度场景中全面落地，千级集群任务自主收敛成功率突破94.5%。",
+      "挑战局限": "2. 等待图（Wait-For-Graph）与死锁解脱：维护全局依赖拓扑，引入基于TTL的动态租约与状态检查点回滚机制，消除循环等待风险；"
+    },
+    "pm_key_points": [
+      "4. 共享黑板状态汇聚：通过CRDT（无冲突复制数据类型）与分布式事务日志，实现高并发场景下的强最终一致性。",
+      "在2026年，行业已形成跨框架互操作的标准化A2A协议体系（如Open-A2A RFC）。该技术在超大规模自动软件工程（数百Agent协同完成需求拆解、全栈编码、对抗性测试与自动化运维）以及复杂工业物流柔性调度场景中全面落地，千级集群任务自主收敛成功率突破94.5%。"
+    ],
+    "source": "11_多智能体协作协议与群体智能架构.docx",
+    "embedding_text": "[场景:tech_probe case_design] [难度:medium] 当候选人提到 多智能体协作协议与群体智能架构（Multi-Agent Sw 时可追问的技术点。 编造识别: 把多智能体说成简单的API调用 说不出协作协议的含义.  多智能体协作协议与群体智能架构（Multi-Agent Swarm Orchestration & A2A Protocols） 核心原理:2. 等待图（Wait-For-Graph）与死锁解脱：维护全局依赖拓扑，引入基于TTL的动态租约与状态检查点回滚机制，消除循环等待风险； 架构要点:随着大语言模型在多步长程规划与高维复杂决策中面临上下文受限与幻觉累积等瓶颈，构建由专用微型智能体组成的分布式群",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "medium",
+    "fabrication_patterns": [
+      "把多智能体说成简单的API调用",
+      "说不出协作协议的含义"
+    ]
+  },
+  {
+    "id": "TECH-12",
+    "category": "tech_docs",
+    "title": "图增强生成与分层混合记忆架构（GraphRAG & Hierarchical Agentic Memory）",
+    "summary": {
+      "技术背景": "传统基于稠密向量检索的 RAG 范式在处理复杂开放域查询时存在固有缺陷：向量相似度匹配割裂了实体间的网状拓扑关联，难以支撑跨文档多跳因果推理与全局概括性摘要，且常诱发“中间失落”（Lost-in-the-Middle）现象。同时，自主智能体在长周期任务中缺乏长期一致性记忆机制。核心问题聚焦于：",
+      "核心原理": "传统基于稠密向量检索的 RAG 范式在处理复杂开放域查询时存在固有缺陷：向量相似度匹配割裂了实体间的网状拓扑关联，难以支撑跨文档多跳因果推理与全局概括性摘要，且常诱发“中间失落”（Lost-in-the-Middle）现象。同时，自主智能体在长周期任务中缺乏长期一致性记忆机制。核心问题聚焦于： 2. 记忆腐化与语义漂移：缺乏记忆分层与遗忘更新机制，导致上下文受限与历史认知冲突；",
+      "架构要点": "知识图谱被形式化为有向多关系图 \\mathcal{G} = (\\mathcal{V}, \\mathcal{E}, \\mathcal{R})。为实现全局宏观语义抽取，系统引入分层社区检测算法（Leiden 算法），通过最大化模块度指标 Q 构建层级聚类树： 4. 记忆固化与反思压缩：短期工作记忆在空闲期经由反思模块抽象提炼，写入情境向量库并更新图谱节点权重。",
+      "产品意义": "- *纯向量检索 vs GraphRAG*：向量检索构建简单、吞吐极高，但在复杂因果关联与跨领域宏观总结任务中准确率骤降；GraphRAG 结构化推理能力极强且具备天然可解释性，但建库成本高出 5~10 倍。2026年工程落地主流采取“冷数据全图索引、热数据向量缓存”的分级策略。",
+      "挑战局限": "传统基于稠密向量检索的 RAG 范式在处理复杂开放域查询时存在固有缺陷：向量相似度匹配割裂了实体间的网状拓扑关联，难以支撑跨文档多跳因果推理与全局概括性摘要，且常诱发“中间失落”（Lost-in-the-Middle）现象。同时，自主智能体在长周期任务中缺乏长期一致性记忆机制。核心问题聚焦于："
+    },
+    "pm_key_points": [
+      "知识图谱被形式化为有向多关系图 \\mathcal{G} = (\\mathcal{V}, \\mathcal{E}, \\mathcal{R})。为实现全局宏观语义抽取，系统引入分层社区检测算法（Leiden 算法），通过最大化模块度指标 Q 构建层级聚类树：",
+      "- *纯向量检索 vs GraphRAG*：向量检索构建简单、吞吐极高，但在复杂因果关联与跨领域宏观总结任务中准确率骤降；GraphRAG 结构化推理能力极强且具备天然可解释性，但建库成本高出 5~10 倍。2026年工程落地主流采取“冷数据全图索引、热数据向量缓存”的分级策略。"
+    ],
+    "source": "12_图增强生成与分层混合记忆架构.docx",
+    "embedding_text": "[场景:tech_probe] [难度:medium] 当候选人提到 图增强生成与分层混合记忆架构（GraphRAG & Hier 时可追问的技术点。 编造识别: 把GraphRAG说成简单的知识图谱 说不出分层记忆的含义.  图增强生成与分层混合记忆架构（GraphRAG & Hierarchical Agentic Memory） 技术背景:传统基于稠密向量检索的 RAG 范式在处理复杂开放域查询时存在固有缺陷：向量相似度匹配割裂了实体间的网状拓扑关联，难以支撑跨文档多跳因果推理与全局概括性摘要，且常诱发“中间失落”（Lost-in-the-Middle）现象。同时，自主智能体在长周期任务中缺乏长期一致性记忆机制。核",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "medium",
+    "fabrication_patterns": [
+      "把GraphRAG说成简单的知识图谱",
+      "说不出分层记忆的含义"
+    ]
+  },
+  {
+    "id": "TECH-13",
+    "category": "tech_docs",
+    "title": "图形用户界面视觉动作智能体（GUI Visual Grounding & OS World Agents）",
+    "summary": {
+      "核心原理": "3. 环境动态延迟与副作用：UI 异步渲染抖动、突发弹窗打断及不可逆操作缺乏闭环自校验与安全回滚机制。 2. 时延自适应渲染等待与异步重试：设立基于像素级动态方差监测机制，等待 UI 动画平稳后方触发下一跳定位，杜绝误触无效击键；",
+      "架构要点": "传统基于应用程序无障碍树（Accessibility Tree）或 DOM 结构的自动化工具，在跨越复杂桌面操作系统（Windows/macOS/Linux）时极易发生接口脱钩与结构缺失。视觉动作智能体（OS World Agents）直接通过纯屏幕视觉输入模拟人类键鼠操作，实现对数字环境的通用原生交互。当前核心工程与理论挑战包括： 2026年，OS World Agents 已全面替代传统脚本式 RPA，广泛赋能金融终端录入、跨软件工业仿真设计及全自动化软件集成测试。在通用 OS 评测基准（如 OSWorld）上，顶尖系统的连续多步复杂任务完成率达 78% 以上，开启了计算机操作系统的“无头人机共生”新范式。",
+      "产品意义": "传统基于应用程序无障碍树（Accessibility Tree）或 DOM 结构的自动化工具，在跨越复杂桌面操作系统（Windows/macOS/Linux）时极易发生接口脱钩与结构缺失。视觉动作智能体（OS World Agents）直接通过纯屏幕视觉输入模拟人类键鼠操作，实现对数字环境的通用原生交互。当前核心工程与理论挑战包括：",
+      "挑战局限": "传统基于应用程序无障碍树（Accessibility Tree）或 DOM 结构的自动化工具，在跨越复杂桌面操作系统（Windows/macOS/Linux）时极易发生接口脱钩与结构缺失。视觉动作智能体（OS World Agents）直接通过纯屏幕视觉输入模拟人类键鼠操作，实现对数字环境的通用原生交互。当前核心工程与理论挑战包括： 1. 细粒度视觉定位误差：高分辨率桌面环境下细小控件图标、密集排版文本的像素级定位精度不足；"
+    },
+    "pm_key_points": [
+      "2026年，OS World Agents 已全面替代传统脚本式 RPA，广泛赋能金融终端录入、跨软件工业仿真设计及全自动化软件集成测试。在通用 OS 评测基准（如 OSWorld）上，顶尖系统的连续多步复杂任务完成率达 78% 以上，开启了计算机操作系统的“无头人机共生”新范式。"
+    ],
+    "source": "13_图形用户界面视觉动作智能体_GUI_Agent.docx",
+    "embedding_text": "[场景:tech_probe case_design] [难度:medium] 当候选人提到 图形用户界面视觉动作智能体（GUI Visual Groun 时可追问的技术点。 编造识别: 把GUI智能体说成简单的自动化 说不出视觉定位的含义.  图形用户界面视觉动作智能体（GUI Visual Grounding & OS World Agents） 核心原理:3. 环境动态延迟与副作用：UI 异步渲染抖动、突发弹窗打断及不可逆操作缺乏闭环自校验与安全回滚机制。 2. 时延自适应渲染等待与异步重试：设立基于像素级动态方差监测机制，等待 UI 动画平稳后方触发下一跳定位，杜绝误触无效击键； 架构要点:传统基于应用程序无障碍树（Accessi",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "medium",
+    "fabrication_patterns": [
+      "把GUI智能体说成简单的自动化",
+      "说不出视觉定位的含义"
+    ]
+  },
+  {
+    "id": "TECH-14",
+    "category": "tech_docs",
+    "title": "环状注意力与分布式无限上下文系统（RingAttention & Infinite-Context Systems）",
+    "summary": {
+      "核心原理": "自注意力机制（Self-Attention）在序列长度 N 上的计算与显存复杂度呈二次方 O(N^2)。当大模型上下文扩展至数百万乃至千万级 Token 时，单卡物理显存（HBM）将在数秒内迅速耗尽。现存主流的序列并行方案高度依赖跨设备的全局 All-Gather 集合通信，其通信量随序列长度呈线性暴涨，极易受制于数据中心网络交换机的物理带宽瓶颈。RingAttention 的核心目标是通过构建环状拓扑通信与在线分块融合机制，彻底打破显存容量墙： RingAttention 底层深度融合了 FlashAttention 在线归一化 Softmax 与环状点对点拓扑流转机制。在局部计算设备上实时维护行最大值标量 m 与指数累加和 l："
+    },
+    "pm_key_points": [],
+    "source": "14_环状注意力与分布式无限上下文系统.docx",
+    "embedding_text": "[场景:tech_probe] [难度:hard] 当候选人提到 环状注意力与分布式无限上下文系统（RingAttention 时可追问的技术点。 编造识别: 只知道长上下文不知道RingAttention 说不出分布式注意力的含义.  环状注意力与分布式无限上下文系统（RingAttention & Infinite-Context Systems） 核心原理:自注意力机制（Self-Attention）在序列长度 N 上的计算与显存复杂度呈二次方 O(N^2)。当大模型上下文扩展至数百万乃至千万级 Token 时，单卡物理显存（HBM）将在数秒内迅速耗尽。现存主流的序列并行方案高度依赖跨设备的全局 All-Gather 集合通",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "hard",
+    "fabrication_patterns": [
+      "只知道长上下文不知道RingAttention",
+      "说不出分布式注意力的含义"
+    ]
+  },
+  {
+    "id": "TECH-15",
+    "category": "tech_docs",
+    "title": "稀疏自编码器与机械可解释性探针（Sparse Autoencoders, SAE & Mechanistic Interpretability）",
+    "summary": {
+      "产品意义": "现代 Transformer 模型长期被视为黑盒，其表征不透明性构成了前沿 AI 安全落地的根本制约。其核心根源在于“叠加假说”（Superposition Hypothesis）：真实语义概念数量远超神经元物理维度，网络通过非正交基向量将多个特征压缩叠加于同一组神经元中，导致单个神经元呈现高度的多义响应。机械可解释性旨在逆向工程内部表征为人类可理解的精确算法回路。稀疏自编码器（SAE）作为核心探针，致力于将稠密激活解构为离散、单义且具因果效用的稀疏语义基底：",
+      "挑战局限": "4. 特征夹持与行为操控：在安全风险触发时，通过强制固定或钳位特定恶意特征（Feature Clamping），实现免重训的实时解毒。 2026年，SAE 与机械可解释性探针已演进为前沿大模型合规审查与实时安全对齐的强制性技术工具。国际评测组织与监管机构广泛利用 SAE 探针在线扫描模型的欺骗对齐、隐藏恶意指令及潜在风险。通过在推理引擎中动态挂载特征操纵器，实现了对模型偏见、幻觉倾向与越狱行为的亚毫秒级无损消除。"
+    },
+    "pm_key_points": [
+      "现代 Transformer 模型长期被视为黑盒，其表征不透明性构成了前沿 AI 安全落地的根本制约。其核心根源在于“叠加假说”（Superposition Hypothesis）：真实语义概念数量远超神经元物理维度，网络通过非正交基向量将多个特征压缩叠加于同一组神经元中，导致单个神经元呈现高度的多义响应。机械可解释性旨在逆向工程内部表征为人类可理解的精确算法回路。稀疏自编码器（SAE）作为核心探",
+      "2026年，SAE 与机械可解释性探针已演进为前沿大模型合规审查与实时安全对齐的强制性技术工具。国际评测组织与监管机构广泛利用 SAE 探针在线扫描模型的欺骗对齐、隐藏恶意指令及潜在风险。通过在推理引擎中动态挂载特征操纵器，实现了对模型偏见、幻觉倾向与越狱行为的亚毫秒级无损消除。"
+    ],
+    "source": "15_稀疏自编码器与机械可解释性探针_SAE.docx",
+    "embedding_text": "[场景:tech_probe] [难度:hard] 当候选人提到 稀疏自编码器与机械可解释性探针（Sparse Autoenc 时可追问的技术点。 编造识别: 只知道可解释性不知道SAE 说不出机械可解释性的含义.  稀疏自编码器与机械可解释性探针（Sparse Autoencoders, SAE & Mechanistic Interpretability） 产品意义:现代 Transformer 模型长期被视为黑盒，其表征不透明性构成了前沿 AI 安全落地的根本制约。其核心根源在于“叠加假说”（Superposition Hypothesis）：真实语义概念数量远超神经元物理维度，网络通过非正交基向量将多个",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "hard",
+    "fabrication_patterns": [
+      "只知道可解释性不知道SAE",
+      "说不出机械可解释性的含义"
+    ]
+  },
+  {
+    "id": "TECH-16",
+    "category": "tech_docs",
+    "title": "16. 自对弈合成数据飞轮与形式化验证体系（Self-Play Synthetic Data Flywheel & Formal Verification）",
+    "summary": {
+      "技术背景": "在大语言模型预训练阶段耗尽公网人类高质量文本的“数据墙”背景下，合成数据成为突破推理能力天花板的必由之路。然而在复杂软件验证、数理推理与芯片微架构逻辑等严苛领域，非受控的神经生成模型极易引发“幻觉级联”与模型退化崩溃。",
+      "核心原理": "本体系的核心目标是：融合自对弈博弈机制（Prover 对抗 Refuter）与形式化验证内核（Lean 4、Coq、Z3 SMT），构建以确定性形式化逻辑为绝对裁判（Ground Truth Oracle）的自我演进飞轮。系统摆脱对易受作弊攻击的人类标注与启发式奖励模型的依赖，在数学与符号逻辑底层实现无幻觉、高信息密度的持续合成闭环。 状态转移由编译内核判定 \\mathcal{P}(s'|s, a) = \text{Kernel}(s, a)，奖励函数定义为：",
+      "架构要点": "在大语言模型预训练阶段耗尽公网人类高质量文本的“数据墙”背景下，合成数据成为突破推理能力天花板的必由之路。然而在复杂软件验证、数理推理与芯片微架构逻辑等严苛领域，非受控的神经生成模型极易引发“幻觉级联”与模型退化崩溃。 1. 高并发沙箱低延迟 IPC：形式化编译器启动开销大。系统设计常驻预热执行容器池（Warm Process Pool）并通过共享内存 IPC 交换抽象语法树（AST），将单步 Tactic 验证延迟从数百毫秒压降至 12ms 级别，支持数万节点并行验证。",
+      "产品意义": "4. 自适应筛选：过滤器剔除平凡解与不可解病态样本，保留处于模型能力边界的高价值样本池注入训练集群。 到2026年，该体系已成为前沿推理模型突破逻辑瓶颈的标准范式。在产业端，已全面应用于芯片微架构 RTL 等价性验证、高保障航空航天嵌入式控制代码合成，以及金融智能合约零漏洞自动审计。未来正向“连续物理场微分方程与离散符号形式化联合求解”深度演进。"
+    },
+    "pm_key_points": [],
+    "source": "16_自对弈合成数据飞轮与形式化验证体系.docx",
+    "embedding_text": "[场景:tech_probe] [难度:hard] 当候选人提到 16. 自对弈合成数据飞轮与形式化验证体系（Self-Pla 时可追问的技术点。 编造识别: 把自对弈说成简单的数据增强 说不出形式化验证的含义.  16. 自对弈合成数据飞轮与形式化验证体系（Self-Play Synthetic Data Flywheel & Formal Verification） 技术背景:在大语言模型预训练阶段耗尽公网人类高质量文本的“数据墙”背景下，合成数据成为突破推理能力天花板的必由之路。然而在复杂软件验证、数理推理与芯片微架构逻辑等严苛领域，非受控的神经生成模型极易引发“幻觉级联”与模型退化崩溃。 核心原理:本",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "hard",
+    "fabrication_patterns": [
+      "把自对弈说成简单的数据增强",
+      "说不出形式化验证的含义"
+    ]
+  },
+  {
+    "id": "TECH-17",
+    "category": "tech_docs",
+    "title": "17. 运行时语义防火墙与动态护栏系统（Runtime Semantic Guardrails & Defense Architectures）",
+    "summary": {
+      "架构要点": "随着大语言模型全面融入企业核心业务与自主智能体（Autonomous Agents）架构，模型暴露于复杂的对抗性输入威胁之中，包括隐蔽越狱攻击、间接提示词注入（Indirect Prompt Injection）、私有凭据渗漏及工具越权调用。传统的“系统提示词防御”属于易被混淆的软性约束，缺乏数学完备性与可审计性。 2. 投机式平滑输出缓冲（Speculative Redaction Buffer）：为平衡用户首字延迟（TTFT）与内容安全，设计 8~16 Token 的轻量滑动缓冲队列。安全内容投机式下发，一旦发现异常立即在客户端感知前执行回滚截断。"
+    },
+    "pm_key_points": [
+      "2. 投机式平滑输出缓冲（Speculative Redaction Buffer）：为平衡用户首字延迟（TTFT）与内容安全，设计 8~16 Token 的轻量滑动缓冲队列。安全内容投机式下发，一旦发现异常立即在客户端感知前执行回滚截断。"
+    ],
+    "source": "17_运行时语义防火墙与动态护栏系统.docx",
+    "embedding_text": "[场景:tech_probe case_design] [难度:medium] 当候选人提到 17. 运行时语义防火墙与动态护栏系统（Runtime Se 时可追问的技术点。 编造识别: 把护栏说成简单的内容过滤 说不出运行时语义的含义.  17. 运行时语义防火墙与动态护栏系统（Runtime Semantic Guardrails & Defense Architectures） 架构要点:随着大语言模型全面融入企业核心业务与自主智能体（Autonomous Agents）架构，模型暴露于复杂的对抗性输入威胁之中，包括隐蔽越狱攻击、间接提示词注入（Indirect Prompt Injection）、私有凭据渗漏及工具越权调用。传",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "medium",
+    "fabrication_patterns": [
+      "把护栏说成简单的内容过滤",
+      "说不出运行时语义的含义"
+    ]
+  },
+  {
+    "id": "TECH-18",
+    "category": "tech_docs",
+    "title": "18. 模型融合与免重训持续学习架构（Model Merging & Continual Learning Architecture）",
+    "summary": {
+      "核心原理": "设通用预训练基座参数为 \theta_0 \\in \\mathbb{R}^D。在任务 t 上微调后的专家参数为 \theta_t，其对应的任务向量定义为微调位移： 不同任务向量之间存在维度上的方向冲突与冗余干扰。Ties-Merging 采用三步去噪机制：",
+      "架构要点": "模型融合与免重训持续学习架构的核心目标在于：无需重新访问海量历史训练集，完全脱离高耗能的反向传播梯度更新过程，直接在模型权重空间内进行几何对齐、代数变换与稀疏投影。通过融合异构专家模型的参数变动，实现多项领域能力的无损聚合与持续在线演进。",
+      "挑战局限": "在基础大模型参数量步入千亿乃至万亿规模的产业阶段，传统的全量持续预训练与多任务微调面临不可承受的算力损耗与严重的“灾难性遗忘”（Catastrophic Forgetting）挑战。工业界存在海量基于同一底座微调的异构领域模型（如代码、数学、医疗与多语言专家），但缺乏经济高效的方式将离散能力融为一体。"
+    },
+    "pm_key_points": [],
+    "source": "18_模型融合与免重训持续学习架构.docx",
+    "embedding_text": "[场景:tech_probe] [难度:medium] 当候选人提到 18. 模型融合与免重训持续学习架构（Model Mergi 时可追问的技术点。 编造识别: 把模型融合说成简单的集成学习 说不出免重训的含义.  18. 模型融合与免重训持续学习架构（Model Merging & Continual Learning Architecture） 核心原理:设通用预训练基座参数为 \theta_0 \\in \\mathbb{R}^D。在任务 t 上微调后的专家参数为 \theta_t，其对应的任务向量定义为微调位移： 不同任务向量之间存在维度上的方向冲突与冗余干扰。Ties-Merging 采用三步去噪机制： 架",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "medium",
+    "fabrication_patterns": [
+      "把模型融合说成简单的集成学习",
+      "说不出免重训的含义"
+    ]
+  },
+  {
+    "id": "TECH-19",
+    "category": "tech_docs",
+    "title": "19. 硬件感知微缩浮点协同设计（Hardware-Aware Microscaling Formats, MXFP4/FP4 Co-Design）",
+    "summary": {
+      "架构要点": "硬件感知微缩浮点协同设计（Microscaling Formats, 遵循 OCP MX 国际标准）的核心在于：在底层计算流水线中建立微向量粒度（Micro-vector，业界通用标准为连续 32 个元素），由硬件单元动态共享一个 8 位高动态范围缩放因子（Scale），微块内元素全部采用 4 位低比特浮点（E2M1/E3M0 编码）存储。通过编译器与张量核心协同重构，在算力吞吐翻倍、访存带宽大幅降低的同时，保持模型优异的数值收敛。 在硬件矩阵乘（GEMM）微架构中，流水线严格分为块内低精度乘法与跨块高精度累加两级："
+    },
+    "pm_key_points": [],
+    "source": "19_硬件感知微缩浮点协同设计_MXFP4.docx",
+    "embedding_text": "[场景:tech_probe] [难度:hard] 当候选人提到 19. 硬件感知微缩浮点协同设计（Hardware-Awar 时可追问的技术点。 编造识别: 只知道量化不知道微缩浮点 说不出硬件感知的含义.  19. 硬件感知微缩浮点协同设计（Hardware-Aware Microscaling Formats, MXFP4/FP4 Co-Design） 架构要点:硬件感知微缩浮点协同设计（Microscaling Formats, 遵循 OCP MX 国际标准）的核心在于：在底层计算流水线中建立微向量粒度（Micro-vector，业界通用标准为连续 32 个元素），由硬件单元动态共享一个 8 位高",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "hard",
+    "fabrication_patterns": [
+      "只知道量化不知道微缩浮点",
+      "说不出硬件感知的含义"
+    ]
+  },
+  {
+    "id": "TECH-20",
+    "category": "tech_docs",
+    "title": "20. 跨域科学与工程垂直推理模型（Domain-Specific Scientific Reasoning Agents, e.g., Bio-Chip Co-Design）",
+    "summary": {
+      "核心原理": "微流道流体状态受纳维-斯托克斯（Navier-Stokes）方程严格约束，损失函数定义为：",
+      "架构要点": "通用大模型在解决跨学科前沿科学工程任务时，普遍受制于“符号推理与真实物理定律脱节”的缺陷。在生物微流控芯片（Bio-Chip）、片上实验室（Lab-on-a-Chip）与生物-半导体混合传感器（Bio-CMOS）协同设计中，系统跨越多相流体力学、生化反应动力学与集成电路（VLSI）传感架构，其设计空间呈现高维离散拓扑与连续参数混合爆炸。 跨域科学与工程垂直推理模型的核心定位在于：将深度推理智能体与物理信息神经算子（PINN/FNO）、高保真数值求解器（FEA/CFD/EDA）及自动化实验闭环耦合。模型在严苛物理守恒定律与工艺容差约束下，执行自主假设生成、微架构寻优与全流程推演，实现从分子反应靶点到微流控硬件芯片的端到端生成。",
+      "产品意义": "进入2026年，跨域垂直推理模型已全面渗透至生物医药与先进半导体制造。代表性成果包括：微流控单细胞测序芯片研发周期从18个月压缩至2周、DNA合成芯片布线良率提升至99.5%，以及由智能体主导的自动化“干湿闭环”（Self-Driving Labs）商业化落地，标志着 AI 正式跃迁为物理世界改造工具。"
+    },
+    "pm_key_points": [
+      "进入2026年，跨域垂直推理模型已全面渗透至生物医药与先进半导体制造。代表性成果包括：微流控单细胞测序芯片研发周期从18个月压缩至2周、DNA合成芯片布线良率提升至99.5%，以及由智能体主导的自动化“干湿闭环”（Self-Driving Labs）商业化落地，标志着 AI 正式跃迁为物理世界改造工具。"
+    ],
+    "source": "20_跨域科学与工程垂直推理模型.docx",
+    "embedding_text": "[场景:tech_probe case_design] [难度:hard] 当候选人提到 20. 跨域科学与工程垂直推理模型（Domain-Speci 时可追问的技术点。 编造识别: 把垂直推理说成简单的fine-tune 说不出跨域推理的含义.  20. 跨域科学与工程垂直推理模型（Domain-Specific Scientific Reasoning Agents, e.g., Bio-Chip Co-Design） 核心原理:微流道流体状态受纳维-斯托克斯（Navier-Stokes）方程严格约束，损失函数定义为： 架构要点:通用大模型在解决跨学科前沿科学工程任务时，普遍受制于“符号推理与真实物理定律脱节”的缺陷。在生物微流控芯片（B",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "hard",
+    "fabrication_patterns": [
+      "把垂直推理说成简单的fine-tune",
+      "说不出跨域推理的含义"
+    ]
+  },
+  {
+    "id": "TECH-QWEN-1",
+    "category": "tech_docs",
+    "title": "Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency",
+    "summary": {},
+    "pm_key_points": [],
+    "source": "dcdcf674-ef3d-47bd-afae-e2892b6d0410_027a159c-1e8a-400d-a40f-d90ef323efb9_超稀疏 MoE 与成本优化-在 Qwen3.8-Flash-Next(1).docx",
+    "embedding_text": "[场景:tech_probe] [难度:medium] 当候选人提到 Qwen3.8-Flash-Next: A New Arch 时可追问的技术点。 编造识别: 只说Qwen好说不出架构特点 不知道Flash架构的含义.  Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency  ",
+    "scenario_tags": [
+      "tech_probe"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "medium",
+    "fabrication_patterns": [
+      "只说Qwen好说不出架构特点",
+      "不知道Flash架构的含义"
+    ]
+  },
+  {
+    "id": "TECH-QWEN-2",
+    "category": "tech_docs",
+    "title": "Qwen3.5: Towards Native Multimodal Agents",
+    "summary": {
+      "核心原理": "首先，我需要重新加载原始图像（或者使用之前加载的），然后应用路径绘制。 由于我无法直接访问之前的变量，我需要在新的代码块中重新定义必要的变量或重新运行部分代码。 不过，我可以简单地使用之前计算出的路径坐标和参数。 路径坐标：path 变量。 边界框：(15, 15) 单元格大小：28",
+      "架构要点": "接下来，我需要确定迷宫的网格大小。从边界框的宽度和高度（587x586）来看，这似乎是一个正方形区域。通常迷宫是由相同大小的单元格组成的。让我尝试推断网格的尺寸。 假设迷宫是一个 N x N 的网格。 587 和 586 非常接近。如果这是一个 17x17 的网格（包括墙壁），每个单元格大约是 34-35 像素。 让我尝试通过检查图像中的线条或简单的除法来确定网格大小。 587 / 17 = 34.52… 586 / 17 = 34.47… 这看起来不太像整数。 让我们尝试其他常见的尺寸，比如 15x15, 19x19, 21x21 等。 或者，我可以尝试根据红球和绿球的位置以及边界框来推断。 红球在左上角，绿球在右下角。 让我尝试将边界框内的图像分割成网格，并尝试几种可能的网格尺寸，看看哪种能产生清晰的黑白模式。 考虑到边界框是 587x586，这可能意味着最外圈是墙壁。 让我们尝试检测边缘或简单的阈值来估算单元格大小。 或者，我可以假设网格大小是使得 587 和 586 能被整除的数。 587 是质数吗？587 / 1 = 587. 586 = 2 * 293. 这有点奇怪。也许边",
+      "产品意义": "首先，我需要重新加载原始图像（或者使用之前加载的），然后应用路径绘制。 由于我无法直接访问之前的变量，我需要在新的代码块中重新定义必要的变量或重新运行部分代码。 不过，我可以简单地使用之前计算出的路径坐标和参数。 路径坐标：path 变量。 边界框：(15, 15) 单元格大小：28"
+    },
+    "pm_key_points": [
+      "路径看起来是连贯的，并且遵循白色路径。 我现在需要生成最终的图像，将路径绘制在原始图像上，或者像右侧那样显示解决方案。 用户要求“画一画，找出红球到绿球的最短路线”。 我将创建一个图像，在原始迷宫上叠加红色的路径线。 为了更美观，我可以将路径坐标转换回像素坐标并绘制线条或填充单元格。 由于我已经有了网格化的表示，我可以直接在调整大小后的图像上绘制，或者映射回原始坐标。 考虑到原始图像有边界框，我将",
+      "代码成功执行，并在原始图像上绘制了从红球到绿球的最短路径（红色线条）。 路径看起来正确地沿着白色通道行进，避开了黑色墙壁。 起点和终点也正确对应。 现在我可以向用户展示结果并简要说明。"
+    ],
+    "source": "a45ecd79-34a8-417f-a20b-bdc5e1cd91a7_6044a3c8-b7bb-422d-8391-0f06b429ccd2_原生多模态流式交互-在 Qwen3.5(1).docx",
+    "embedding_text": "[场景:tech_probe case_design] [难度:medium] 当候选人提到 Qwen3.5: Towards Native Multim 时可追问的技术点。 编造识别: 把多模态agent说成简单的多模态模型 说不出native agent的含义.  Qwen3.5: Towards Native Multimodal Agents 核心原理:首先，我需要重新加载原始图像（或者使用之前加载的），然后应用路径绘制。 由于我无法直接访问之前的变量，我需要在新的代码块中重新定义必要的变量或重新运行部分代码。 不过，我可以简单地使用之前计算出的路径坐标和参数。 路径坐标：path 变量。 边界框：(15, 15) 单元格大小：28 架构要点:接下来，我",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "medium",
+    "fabrication_patterns": [
+      "把多模态agent说成简单的多模态模型",
+      "说不出native agent的含义"
+    ]
+  },
+  {
+    "id": "TECH-ALI-01",
+    "category": "tech_docs",
+    "title": "阿里通义技术白皮书：大模型技术演进与产品化实践",
+    "summary": {
+      "技术背景": "阿里云通义系列大模型从通用基座到行业模型的全栈技术布局，涵盖预训练、对齐、推理优化全链路技术。核心问题是如何在保证模型能力的同时实现低成本、高可用的商业化落地。",
+      "核心原理": "通义千问系列采用Transformer架构，通过多阶段预训练+人类反馈强化学习（RLHF）提升对齐效果。推理侧采用量化、蒸馏、投机解码等技术优化成本。",
+      "架构要点": "模型层（基座+行业模型+轻量模型）、平台层（百炼平台Model Studio）、应用层（通义APP+企业解决方案）三层架构。",
+      "产品意义": "通义百炼平台提供一站式大模型开发平台，降低企业AI应用门槛。模型即服务（MaaS）模式让企业可以按需调用不同规格的模型。",
+      "应用场景": "智能客服、内容生成、代码助手、企业知识库、数据分析、办公提效等场景。",
+      "挑战局限": "企业数据安全与隐私保护、模型幻觉问题、行业场景定制成本高、ROI评估困难。"
+    },
+    "pm_key_points": [
+      "产品经理需理解模型能力边界：哪些场景适合用大模型，哪些不适合",
+      "成本意识：Token成本、推理延迟与用户体验的平衡",
+      "评估体系：怎么衡量大模型产品的效果，建立业务指标对齐机制"
+    ],
+    "source": "阿里技术白皮书.pdf",
+    "embedding_text": "[场景:tech_probe case_design] [难度:medium] 当候选人提到 阿里通义技术白皮书：大模型技术演进与产品化实践 时可追问的技术点。 编造识别: 只说通义好说不出技术演进 不知道产品化实践的细节.  阿里通义千问 大模型技术白皮书 百炼平台 MaaS 模型即服务 预训练 RLHF 推理优化 量化 蒸馏 投机解码 企业级AI应用 数据安全 评估体系",
+    "scenario_tags": [
+      "tech_probe",
+      "case_design"
+    ],
+    "strategy_type": null,
+    "trigger_patterns": [],
+    "question_templates": [],
+    "red_flags": [],
+    "difficulty": "medium",
+    "fabrication_patterns": [
+      "只说通义好说不出技术演进",
+      "不知道产品化实践的细节"
+    ]
+  },
+  {
+    "id": "TIP-001",
+    "category": "interview_tips",
+    "company": "智谱AI",
+    "interview_type": "业务面",
+    "key_topics": [
+      "业务理解",
+      "办公场景落地",
+      "Prompt迭代",
+      "Agent搭建"
+    ],
+    "question_samples": [
+      "对智谱主要业务方向的了解",
+      "办公场景中AI使用方式的理解",
+      "Prompt的迭代与优化方法",
+      "Agent的搭建思路"
+    ],
+    "core_advice": "先讲业务，再讲技术。准备智谱面试时，应先梳理公司主要业务、目标用户和典型使用场景，再说明自己如何判断AI能解决什么问题。不要只停留在模型名词或功能罗列。办公场景要讲完整链路：用户任务→当前痛点→AI介入点→结果验证。",
+    "embedding_text": "[场景:project_dig tech_probe] [策略:data_probing] 触发词: 数据 提升 效果. 追问话术: 这个提升比例具体是多少？从哪个平台看的？ 统计口径是什么？周期多久？. 警惕信号: 说不出数据口径 不知道统计周期.  智谱AI 产品经理 业务面 面试经验 办公场景AI Prompt迭代 Agent搭建 业务理解 2026校招",
+    "scenario_tags": [
+      "project_dig",
+      "tech_probe"
+    ],
+    "strategy_type": "data_probing",
+    "trigger_patterns": [
+      "数据",
+      "提升",
+      "效果",
+      "约",
+      "大概",
+      "差不多"
+    ],
+    "question_templates": [
+      "这个提升比例具体是多少？从哪个平台看的？",
+      "统计口径是什么？周期多久？"
+    ],
+    "red_flags": [
+      "说不出数据口径",
+      "不知道统计周期",
+      "分母不明确"
+    ],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "TIP-002",
+    "category": "interview_tips",
+    "company": "小米",
+    "interview_type": "业务面",
+    "key_topics": [
+      "模型评测",
+      "RAG准确率",
+      "用户满意度",
+      "智能体平台",
+      "DeepSeek对比"
+    ],
+    "question_samples": [
+      "模型评估是怎么个评估方法？详细说说",
+      "怎么评估RAG知识库的准确率？",
+      "用户满意度的评估是怎么个方法？",
+      "DeepSeek和GPT-4最大的区别在哪？",
+      "你了解过DeepSeek R1模型的参数规模吗？"
+    ],
+    "core_advice": "小米面试几乎整轮都在评测，是AI PM面试中评测导向极强的样本。务必准备一套完整评测叙事：离线（基准集、人工打分、LLM-as-Judge）+ 在线（点击率、任务成功率、拒答率）+ 回归测试。RAG准确率要讲检索命中率、答案忠实度、引用正确率。对DeepSeek等热点模型，准备能力差异+产品化差异+局限的三角回答。",
+    "embedding_text": "[场景:project_dig] [策略:contribution_probing] 触发词: 我们 团队 负责. 追问话术: 团队有几个人？你的mentor做了什么？ 你和其他PM的分工边界在哪？. 警惕信号: 说不出个人分工 把mentor的成果说成自己的.  小米 AI产品经理 面试经验 模型评测 RAG准确率 用户满意度 智能体平台 DeepSeek 评测体系 2026校招",
+    "scenario_tags": [
+      "project_dig"
+    ],
+    "strategy_type": "contribution_probing",
+    "trigger_patterns": [
+      "我们",
+      "团队",
+      "负责",
+      "主导",
+      "整个"
+    ],
+    "question_templates": [
+      "团队有几个人？你的mentor做了什么？",
+      "你和其他PM的分工边界在哪？"
+    ],
+    "red_flags": [
+      "说不出个人分工",
+      "把mentor的成果说成自己的",
+      "无法说清团队规模"
+    ],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "TIP-003",
+    "category": "interview_tips",
+    "company": "中小厂/初创",
+    "interview_type": "通用",
+    "key_topics": [
+      "项目真实性",
+      "个人贡献",
+      "问题处理能力",
+      "完整链路"
+    ],
+    "question_samples": [
+      "你在项目中具体做了什么？",
+      "遇到的最大困难是什么？怎么解决的？",
+      "你和mentor的分工是什么？"
+    ],
+    "core_advice": "中小厂和初创团队通常更需要候选人快速承担完整链路，因此项目真实性、个人贡献和问题处理能力很重要。项目介绍要讲清楚：背景→我的角色→我做了什么→遇到的困难→怎么解决的→结果是什么。强调'我'做了什么，不是'我们'做了什么。",
+    "embedding_text": "[场景:project_dig tech_probe] [策略:tech_depth_probing] 触发词: RAG Agent embedding. 追问话术: 这个技术你对比过哪些方案？为什么选这个？ 遇到过什么问题？怎么解决的？. 警惕信号: 只说技术名词说不出原理 选型理由空洞.  中小厂 初创 AI产品 面试经验 项目真实性 个人贡献 问题处理 完整链路 校招实习",
+    "scenario_tags": [
+      "project_dig",
+      "tech_probe"
+    ],
+    "strategy_type": "tech_depth_probing",
+    "trigger_patterns": [
+      "RAG",
+      "Agent",
+      "embedding",
+      "微调",
+      "模型",
+      "算法"
+    ],
+    "question_templates": [
+      "这个技术你对比过哪些方案？为什么选这个？",
+      "遇到过什么问题？怎么解决的？"
+    ],
+    "red_flags": [
+      "只说技术名词说不出原理",
+      "选型理由空洞",
+      "没有踩坑经历"
+    ],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "TIP-004",
+    "category": "interview_tips",
+    "company": "美团",
+    "interview_type": "二面/实习",
+    "key_topics": [
+      "本地生活战略",
+      "AI素养",
+      "AI Coding",
+      "产品设计"
+    ],
+    "question_samples": [
+      "如果让你做一个AI外卖推荐产品，你怎么设计？",
+      "你怎么看待AI在本地生活的应用？",
+      "说一个你用AI工具提升效率的例子"
+    ],
+    "core_advice": "美团AI面形式多样：有的像AI素养问卷，有的像本地生活战略Case。投递前尽量弄清岗位所属BG与面经类型。准备时兼顾：1）AI技术理解广度；2）本地生活业务理解；3）产品设计方法论；4）AI工具使用经验。",
+    "embedding_text": "[场景:project_dig] [策略:contribution_probing] 触发词: 我做了 我负责 我主导. 追问话术: 你说的'负责'具体是什么意思？ 哪些决策是你做的？. 警惕信号: 贡献描述模糊 用'我们'代替'我'.  美团 AI产品经理 面试经验 二面 实习 本地生活 战略Case AI素养 AI Coding 2026校招",
+    "scenario_tags": [
+      "project_dig"
+    ],
+    "strategy_type": "contribution_probing",
+    "trigger_patterns": [
+      "我做了",
+      "我负责",
+      "我主导",
+      "我们团队"
+    ],
+    "question_templates": [
+      "你说的'负责'具体是什么意思？",
+      "哪些决策是你做的？",
+      "产出物是你写的还是团队写的？"
+    ],
+    "red_flags": [
+      "贡献描述模糊",
+      "用'我们'代替'我'",
+      "说不出具体决策"
+    ],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "TIP-005",
+    "category": "interview_tips",
+    "company": "字节跳动",
+    "interview_type": "Agent产品经理/暑期实习",
+    "key_topics": [
+      "内容社区",
+      "Agent产品",
+      "增长",
+      "KOL",
+      "数据分析"
+    ],
+    "question_samples": [
+      "你怎么理解Agent产品？",
+      "如果让你设计一个KOL Agent，你会怎么做？",
+      "怎么衡量一个Agent产品的成功？",
+      "你怎么看待Agent的增长？"
+    ],
+    "core_advice": "字节面经相似度低是社区共识，重在考察内容+Agent+增长的交叉能力，不宜用通用八股代替项目复盘。准备Agent产品时要想清楚：核心价值是什么？和传统产品有什么不同？怎么评估效果？字节非常看重数据驱动和AB实验思维。",
+    "embedding_text": "[场景:project_dig tech_probe] [策略:tech_depth_probing] 触发词: 技术选型 方案 架构. 追问话术: 选型时对比过哪些方案？ 为什么不用XX方案？. 警惕信号: 选型理由只有'业界都用' 说不出对比方案.  字节跳动 AI产品经理 Agent 面试经验 暑期实习 内容社区 KOL 增长 数据分析 AB实验 2026校招",
+    "scenario_tags": [
+      "project_dig",
+      "tech_probe"
+    ],
+    "strategy_type": "tech_depth_probing",
+    "trigger_patterns": [
+      "技术选型",
+      "方案",
+      "架构",
+      "为什么用",
+      "怎么选"
+    ],
+    "question_templates": [
+      "选型时对比过哪些方案？",
+      "为什么不用XX方案？",
+      "选型的权衡维度是什么？"
+    ],
+    "red_flags": [
+      "选型理由只有'业界都用'",
+      "说不出对比方案",
+      "没有权衡分析"
+    ],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "TIP-006",
+    "category": "interview_tips",
+    "company": "理想汽车",
+    "interview_type": "AI产品",
+    "key_topics": [
+      "实习剥洋葱",
+      "数据评测",
+      "小米实习",
+      "项目深挖"
+    ],
+    "question_samples": [
+      "介绍一下在小米的实习",
+      "小米这段的大模型数据评测怎么做的？",
+      "评测指标有哪些？怎么来的？",
+      "遇到的最大困难是什么？"
+    ],
+    "core_advice": "理想面试特点是同一实习连问5-8题（剥洋葱式追问）。每段实习需准备策略调整、评测指标、困难case三个层次，且数字前后一致。回答项目时要有层次感：项目背景→我的角色→具体动作→遇到的问题→怎么解决→最终结果→我的思考。",
+    "embedding_text": "[场景:self_intro hr_comprehensive] [策略:motivation_probing] 触发词: 自我介绍 实习经历 项目经历. 追问话术: 能展开讲讲这段实习吗？ 这个项目你的角色是什么？. 警惕信号: 自我介绍背诵感强 细节经不起追问.  理想汽车 AI产品 面试经验 实习剥洋葱 数据评测 项目深挖 小米实习 2026校招",
+    "scenario_tags": [
+      "self_intro",
+      "hr_comprehensive"
+    ],
+    "strategy_type": "motivation_probing",
+    "trigger_patterns": [
+      "自我介绍",
+      "实习经历",
+      "项目经历",
+      "背景"
+    ],
+    "question_templates": [
+      "能展开讲讲这段实习吗？",
+      "这个项目你的角色是什么？"
+    ],
+    "red_flags": [
+      "自我介绍背诵感强",
+      "细节经不起追问",
+      "实习时间和内容不匹配"
+    ],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "TIP-007",
+    "category": "interview_tips",
+    "company": "Kimi/月之暗面",
+    "interview_type": "产品经理",
+    "key_topics": [
+      "Agent评测",
+      "专业场景设计",
+      "增长曲线",
+      "长文档理解"
+    ],
+    "question_samples": [
+      "怎么评测一个Agent的效果？",
+      "设计一个面向律师的AI产品",
+      "Kimi的增长曲线你怎么看？"
+    ],
+    "core_advice": "这篇面经适合用于准备Agent评测、专业场景产品设计和AI产品增长曲线题。回答Agent评测时：要区分能力评测和体验评测；能力评测用基准集+人工打分，体验评测看任务完成率+用户满意度。专业场景设计要体现行业理解深度。",
+    "embedding_text": "[场景:project_dig hr_comprehensive] [策略:logic_probing] 触发词: 因为 所以 导致. 追问话术: 你说的因果关系是怎么验证的？ 有没有反例？前提条件是什么？. 警惕信号: 因果关系牵强 说不出前提条件.  Kimi 月之暗面 AI产品经理 面试经验 Agent评测 专业场景设计 增长曲线 长文档 2026校招",
+    "scenario_tags": [
+      "project_dig",
+      "hr_comprehensive"
+    ],
+    "strategy_type": "logic_probing",
+    "trigger_patterns": [
+      "因为",
+      "所以",
+      "导致",
+      "原因是",
+      "目的是"
+    ],
+    "question_templates": [
+      "你说的因果关系是怎么验证的？",
+      "有没有反例？前提条件是什么？"
+    ],
+    "red_flags": [
+      "因果关系牵强",
+      "说不出前提条件",
+      "无法举例反例"
+    ],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "TIP-008",
+    "category": "interview_tips",
+    "company": "商汤科技",
+    "interview_type": "实习面",
+    "key_topics": [
+      "AI简历筛选工具",
+      "校园项目",
+      "产品设计",
+      "评测方法"
+    ],
+    "question_samples": [
+      "介绍一下你做的AI简历筛选工具",
+      "你怎么评估这个工具的效果？",
+      "如果让你优化，你会从哪几个方面入手？"
+    ],
+    "core_advice": "商汤实习面比较看重项目真实性和产品思维。即使是校园项目，也要讲得像正式产品：用户是谁？解决什么问题？核心功能是什么？怎么评估效果？技术方案的选择理由是什么？体现出你虽然是学生，但有产品思维。",
+    "embedding_text": "[场景:case_design tech_probe] [策略:tech_depth_probing] 触发词: 设计 方案 产品. 追问话术: 你的设计方案考虑了哪些用户场景？ 用什么数据支撑这个设计？. 警惕信号: 设计方案空泛 说不出用户场景.  商汤科技 AI产品经理 实习面试 校园项目 AI简历筛选 产品设计 评测方法 2026校招",
+    "scenario_tags": [
+      "case_design",
+      "tech_probe"
+    ],
+    "strategy_type": "tech_depth_probing",
+    "trigger_patterns": [
+      "设计",
+      "方案",
+      "产品",
+      "功能",
+      "用户体验"
+    ],
+    "question_templates": [
+      "你的设计方案考虑了哪些用户场景？",
+      "用什么数据支撑这个设计？"
+    ],
+    "red_flags": [
+      "设计方案空泛",
+      "说不出用户场景",
+      "没有数据支撑"
+    ],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "TIP-009",
+    "category": "interview_tips",
+    "company": "科大讯飞",
+    "interview_type": "产品经理",
+    "key_topics": [
+      "ToB产品",
+      "教育/医疗场景",
+      "项目经历",
+      "需求分析"
+    ],
+    "question_samples": [
+      "你怎么理解ToB和ToC产品的区别？",
+      "说一个你最有成就感的项目",
+      "如果客户需求和产品规划冲突，你怎么办？"
+    ],
+    "core_advice": "讯飞面试比较看重ToB产品思维和行业场景理解。准备ToB产品题时：要讲清楚客户是谁、用户是谁（客户≠用户）、采购决策链、怎么和客户沟通需求、怎么平衡定制化和标准化。行业理解是加分项。",
+    "embedding_text": "[场景:hr_comprehensive] [策略:motivation_probing] 触发词: 职业规划 为什么 动机. 追问话术: 你为什么想做AI产品经理？ 能说说你的职业规划吗？. 警惕信号: 动机不真诚 职业规划空洞.  科大讯飞 产品经理 面试经验 ToB产品 教育 医疗 需求分析 项目经历 2026校招",
+    "scenario_tags": [
+      "hr_comprehensive"
+    ],
+    "strategy_type": "motivation_probing",
+    "trigger_patterns": [
+      "职业规划",
+      "为什么",
+      "动机",
+      "兴趣",
+      "性格"
+    ],
+    "question_templates": [
+      "你为什么想做AI产品经理？",
+      "能说说你的职业规划吗？"
+    ],
+    "red_flags": [
+      "动机不真诚",
+      "职业规划空洞",
+      "说不出具体兴趣点"
+    ],
+    "difficulty": null,
+    "fabrication_patterns": []
+  },
+  {
+    "id": "TIP-010",
+    "category": "interview_tips",
+    "company": "通用校招",
+    "interview_type": "HR面/综合面",
+    "key_topics": [
+      "职业规划",
+      "优缺点",
+      "为什么选择AI",
+      "期望薪资",
+      "团队合作"
+    ],
+    "question_samples": [
+      "为什么想做AI产品经理？",
+      "你的职业规划是什么？",
+      "你最大的优缺点是什么？",
+      "为什么选择我们公司？",
+      "和同事意见不一致怎么办？"
+    ],
+    "core_advice": "HR面核心考察：稳定性（会不会来、会不会走）、文化匹配、价值观、沟通表达。回答职业规划要结合公司业务，不要说'想创业'或'先干两年再说'。说缺点时要说真实的但不致命的缺点，且说明你在怎么改进。为什么选AI产品经理要讲出自己的思考，不要只说'AI是风口'。",
+    "embedding_text": "[场景:project_dig tech_probe] [策略:data_probing] 触发词: 数据来源 怎么统计 多少. 追问话术: 这个数据怎么算出来的？ 你能复现一下计算过程吗？. 警惕信号: 数据来源不明 口径不一致.  HR面 综合面 校招 AI产品经理 职业规划 优缺点 为什么选择 团队合作 面试技巧",
+    "scenario_tags": [
+      "project_dig",
+      "tech_probe"
+    ],
+    "strategy_type": "data_probing",
+    "trigger_patterns": [
+      "数据来源",
+      "怎么统计",
+      "多少",
+      "比例",
+      "提升"
+    ],
+    "question_templates": [
+      "这个数据怎么算出来的？",
+      "你能复现一下计算过程吗？"
+    ],
+    "red_flags": [
+      "数据来源不明",
+      "口径不一致",
+      "无法复现计算过程"
+    ],
+    "difficulty": null,
+    "fabrication_patterns": []
+  }
+]
