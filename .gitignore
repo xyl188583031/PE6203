@@ -21,3 +21,6 @@ rag/chroma_db/
 Thumbs.db
 .idea/
 .vscode/
+
+# App-publishing marker written by the hosting tool — internal, not part of the deliverable
+.wbapp_*.genie
