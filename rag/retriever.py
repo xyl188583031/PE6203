@@ -81,9 +81,30 @@ class HybridRetriever:
         except Exception:
             self.collection = self.chroma_client.create_collection("mianba_kb")
 
-        existing = self.collection.count()
+        try:
+            existing = self.collection.count()
+        except Exception:
+            existing = 0
+
         if existing < len(self.kb) or existing == 0:
+            build_error = self._safe_build_index()
+            if build_error:
+                print(f"[retriever] 向量索引构建失败，检索退化为 BM25-only：{build_error}")
+
+    def _safe_build_index(self) -> str:
+        """构建向量索引，失败时不影响应用启动。
+
+        云端/离线环境可能无法下载 Chroma 默认的 embedding 模型（ONNX MiniLM）。
+        此时索引为空，query 路径本身已容错（异常被吞掉），结果自动退化为纯 BM25，
+        应用仍可正常启动与使用。
+
+        返回空字符串表示成功，否则返回错误信息。
+        """
+        try:
             self._build_index()
+            return ""
+        except Exception as exc:  # noqa: BLE001 — 目的是不让启动失败
+            return f"{type(exc).__name__}: {exc}"
 
     def _build_index(self):
         try:
